@@ -1,0 +1,46 @@
+* D:\super_UART\sim\STM32_boot_button.asc
+V1 VCC 0 3V3
+XX1 N001 RST RST_ACT 0 comparator params: Vhigh=3.3
+V2 N001 N003 0.07
+R1 VCC N003 700k
+R2 N003 0 300k
+XX2 RST N008 RST_NACT 0 comparator params: Vhigh=3.3
+V3 N008 N010 0.398
+R3 VCC N010 555k
+R4 N010 0 445k
+C1 RST 0 10n
+C2 BOOT0 0 1µ
+R5 BOOT0 0 10k
+Q1 BOOT0 N005 VCC 0 BC557B
+D1 RST N006 RB521SM-30
+R6 VCC RST 55k
+R7 VCC N005 10k
+R8 N005 N006 10k
+M1 N006 N007 0 0 2N7002
+V4 N007 0 PULSE(0 12 100m 1u 1u 100m 100)
+XX3 N002 BOOT0 BOOT0_ACT 0 comparator params: Vhigh=3.3
+V5 N002 N004 -0.3
+R9 VCC N004 700k
+R10 N004 0 300k
+XX4 BOOT0 N009 BOOT0_NACT 0 comparator params: Vhigh=3.3
+V6 N009 N011 0.95
+R11 VCC N011 800k
+R12 N011 0 200k
+
+* block symbol definitions
+.subckt comparator IN+ IN- OUT+ OUT-
+B1 OUT+ OUT- V=if(V(IN+)>V(IN-),Vhigh,Vlow)
+.param Vhigh=1 Vlow=0
+.ends comparator
+
+.model D D
+.lib C:\Users\Masta\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\Masta\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\Masta\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 1
+.backanno
+.end
