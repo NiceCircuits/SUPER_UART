@@ -2,3 +2,4 @@
 /fpga
 /kicad/*/*.net
 /~$*.xls*
+*.bak

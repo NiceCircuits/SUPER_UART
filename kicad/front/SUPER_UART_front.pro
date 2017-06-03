@@ -1,4 +1,4 @@
-update=2017-05-07 20:55:11
+update=2017-05-31 07:38:22
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,3 +67,14 @@ LibName35=C:/Program Files/KiCad/share/kicad/library/74xx
 LibName36=C:/Program Files/KiCad/share/kicad/library/cmos4000
 LibName37=niceIsolators
 LibName38=C:/Program Files/KiCad/share/kicad/library/conn
+LibName39=niceCpld
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=56
