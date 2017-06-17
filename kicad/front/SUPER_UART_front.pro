@@ -1,4 +1,4 @@
-update=2017-05-31 07:38:22
+update=2017-06-17 07:26:44
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,6 +68,8 @@ LibName36=C:/Program Files/KiCad/share/kicad/library/cmos4000
 LibName37=niceIsolators
 LibName38=C:/Program Files/KiCad/share/kicad/library/conn
 LibName39=niceCpld
+LibName40=niceFFC
+LibName41=C:/Program Files/KiCad/share/kicad/library/power
 [schematic_editor]
 version=1
 PageLayoutDescrFile=

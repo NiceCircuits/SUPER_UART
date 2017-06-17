@@ -1,6 +1,6 @@
-update=2017-05-06 18:15:17
+update=2017-06-10 19:17:28
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -75,3 +75,4 @@ LibName33=D:/Lib/kicad/pnRelay
 LibName34=C:/Program Files/KiCad/share/kicad/library/74xgxx
 LibName35=C:/Program Files/KiCad/share/kicad/library/74xx
 LibName36=C:/Program Files/KiCad/share/kicad/library/cmos4000
+LibName37=niceCpld
