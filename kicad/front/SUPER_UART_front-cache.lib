@@ -722,6 +722,19 @@ X VDD 48 -1200 100 200 R 60 60 2 1 W
 ENDDRAW
 ENDDEF
 #
+# Testpoint
+#
+DEF Testpoint TP 0 40 N N 1 F N
+F0 "TP" 50 100 60 H V L CNN
+F1 "Testpoint" 50 0 60 H V L CNN
+F2 "pnConnector:TP_1mm" -50 -80 60 H I C CNN
+F3 "" 0 50 60 H V C CNN
+DRAW
+C 0 75 25 0 1 0 N
+X 1 1 0 0 50 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # VDD1
 #
 DEF VDD1 #PWR 0 0 Y Y 1 F P

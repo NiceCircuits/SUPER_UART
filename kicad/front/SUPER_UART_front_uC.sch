@@ -237,7 +237,7 @@ U 1 1 59100C4E
 P 8900 1950
 F 0 "LED9" H 8975 2010 60  0000 L CNN
 F 1 "5V_2" H 8975 1910 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 8975 1850 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 8975 1850 40  0001 L CNN
 F 3 "" H 8900 1950 60  0001 C CNN
 	1    8900 1950
 	1    0    0    -1  
@@ -248,7 +248,7 @@ U 1 1 59101172
 P 9500 1950
 F 0 "LED10" H 9575 2010 60  0000 L CNN
 F 1 "3V3_2" H 9575 1910 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 9575 1850 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 9575 1850 40  0001 L CNN
 F 3 "" H 9500 1950 60  0001 C CNN
 	1    9500 1950
 	1    0    0    -1  
@@ -259,7 +259,7 @@ U 1 1 5910129D
 P 10100 1950
 F 0 "LED11" H 10175 2010 60  0000 L CNN
 F 1 "2V5_2" H 10175 1910 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 10175 1850 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 10175 1850 40  0001 L CNN
 F 3 "" H 10100 1950 60  0001 C CNN
 	1    10100 1950
 	1    0    0    -1  
@@ -270,7 +270,7 @@ U 1 1 591012AA
 P 10700 1950
 F 0 "LED12" H 10775 2010 60  0000 L CNN
 F 1 "1V8_2" H 10775 1910 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 10775 1850 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 10775 1850 40  0001 L CNN
 F 3 "" H 10700 1950 60  0001 C CNN
 	1    10700 1950
 	1    0    0    -1  
@@ -281,7 +281,7 @@ U 1 1 59101C7E
 P 8900 1250
 F 0 "LED1" H 8975 1310 60  0000 L CNN
 F 1 "5V_1" H 8975 1210 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 8975 1150 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 8975 1150 40  0001 L CNN
 F 3 "" H 8900 1250 60  0001 C CNN
 	1    8900 1250
 	1    0    0    -1  
@@ -292,7 +292,7 @@ U 1 1 59101C8B
 P 9500 1250
 F 0 "LED2" H 9575 1310 60  0000 L CNN
 F 1 "3V3_1" H 9575 1210 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 9575 1150 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 9575 1150 40  0001 L CNN
 F 3 "" H 9500 1250 60  0001 C CNN
 	1    9500 1250
 	1    0    0    -1  
@@ -303,7 +303,7 @@ U 1 1 59101C98
 P 10100 1250
 F 0 "LED3" H 10175 1310 60  0000 L CNN
 F 1 "2V5_1" H 10175 1210 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 10175 1150 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 10175 1150 40  0001 L CNN
 F 3 "" H 10100 1250 60  0001 C CNN
 	1    10100 1250
 	1    0    0    -1  
@@ -314,7 +314,7 @@ U 1 1 59101CA5
 P 10700 1250
 F 0 "LED4" H 10775 1310 60  0000 L CNN
 F 1 "1V8_1" H 10775 1210 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 10775 1150 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 10775 1150 40  0001 L CNN
 F 3 "" H 10700 1250 60  0001 C CNN
 	1    10700 1250
 	1    0    0    -1  
@@ -325,7 +325,7 @@ U 1 1 591038DB
 P 8900 1600
 F 0 "LED5" H 8975 1660 60  0000 L CNN
 F 1 "RX" H 8975 1560 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 8975 1500 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 8975 1500 40  0001 L CNN
 F 3 "" H 8900 1600 60  0001 C CNN
 	1    8900 1600
 	1    0    0    -1  
@@ -336,7 +336,7 @@ U 1 1 59104764
 P 9500 1600
 F 0 "LED6" H 9575 1660 60  0000 L CNN
 F 1 "TX" H 9575 1560 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 9575 1500 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 9575 1500 40  0001 L CNN
 F 3 "" H 9500 1600 60  0001 C CNN
 	1    9500 1600
 	1    0    0    -1  
@@ -347,7 +347,7 @@ U 1 1 591048D0
 P 10700 1600
 F 0 "LED8" H 10775 1660 60  0000 L CNN
 F 1 "ISO" H 10775 1560 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 10775 1500 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 10775 1500 40  0001 L CNN
 F 3 "" H 10700 1600 60  0001 C CNN
 	1    10700 1600
 	1    0    0    -1  
@@ -358,7 +358,7 @@ U 1 1 59104B21
 P 8900 2300
 F 0 "LED13" H 8975 2360 60  0000 L CNN
 F 1 "I2C_A" H 8975 2260 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 8975 2200 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 8975 2200 40  0001 L CNN
 F 3 "" H 8900 2300 60  0001 C CNN
 	1    8900 2300
 	1    0    0    -1  
@@ -369,7 +369,7 @@ U 1 1 59104C93
 P 9500 2300
 F 0 "LED14" H 9575 2360 60  0000 L CNN
 F 1 "SPI_A" H 9575 2260 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 9575 2200 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 9575 2200 40  0001 L CNN
 F 3 "" H 9500 2300 60  0001 C CNN
 	1    9500 2300
 	1    0    0    -1  
@@ -380,7 +380,7 @@ U 1 1 5910681D
 P 10100 2300
 F 0 "LED15" H 10175 2360 60  0000 L CNN
 F 1 "I2C_B" H 10175 2260 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 10175 2200 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 10175 2200 40  0001 L CNN
 F 3 "" H 10100 2300 60  0001 C CNN
 	1    10100 2300
 	1    0    0    -1  
@@ -391,7 +391,7 @@ U 1 1 59106823
 P 10700 2300
 F 0 "LED16" H 10775 2360 60  0000 L CNN
 F 1 "SPI_B" H 10775 2260 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 10775 2200 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 10775 2200 40  0001 L CNN
 F 3 "" H 10700 2300 60  0001 C CNN
 	1    10700 2300
 	1    0    0    -1  
@@ -402,7 +402,7 @@ U 1 1 59106835
 P 10100 1600
 F 0 "LED7" H 10175 1660 60  0000 L CNN
 F 1 "SPY" H 10175 1560 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 10175 1500 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 10175 1500 40  0001 L CNN
 F 3 "" H 10100 1600 60  0001 C CNN
 	1    10100 1600
 	1    0    0    -1  
@@ -1531,7 +1531,7 @@ U 1 1 593FE1E3
 P 8900 2650
 F 0 "LED17" H 8975 2710 60  0000 L CNN
 F 1 "EN_A" H 8975 2610 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 8975 2550 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 8975 2550 40  0001 L CNN
 F 3 "" H 8900 2650 60  0001 C CNN
 	1    8900 2650
 	1    0    0    -1  
@@ -1542,7 +1542,7 @@ U 1 1 593FE1E9
 P 9500 2650
 F 0 "LED18" H 9575 2710 60  0000 L CNN
 F 1 "EN_B" H 9575 2610 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 9575 2550 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 9575 2550 40  0001 L CNN
 F 3 "" H 9500 2650 60  0001 C CNN
 	1    9500 2650
 	1    0    0    -1  
@@ -1553,7 +1553,7 @@ U 1 1 593FE1EF
 P 10100 2650
 F 0 "LED19" H 10175 2710 60  0000 L CNN
 F 1 "EN_C" H 10175 2610 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 10175 2550 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 10175 2550 40  0001 L CNN
 F 3 "" H 10100 2650 60  0001 C CNN
 	1    10100 2650
 	1    0    0    -1  
@@ -1564,7 +1564,7 @@ U 1 1 593FE1F5
 P 10700 2650
 F 0 "LED20" H 10775 2710 60  0000 L CNN
 F 1 "EN_D" H 10775 2610 60  0000 L CNN
-F 2 "pnSemiconductor:LED_3.2x2" H 10775 2550 40  0001 L CNN
+F 2 "pnSemiconductor:0805D" H 10775 2550 40  0001 L CNN
 F 3 "" H 10700 2650 60  0001 C CNN
 	1    10700 2650
 	1    0    0    -1  
@@ -1700,132 +1700,630 @@ F 4 "Value" H 1600 7250 60  0001 C CNN "Fieldname"
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2000 7350
-Text Label -1500 2600 0    56   ~ 0
-SWDIO
-Text Label -1500 2700 0    56   ~ 0
-SWDCLK
-Text HLabel -1500 2300 0    56   Input ~ 0
+Text Label 5800 3300 0    56   ~ 0
 TXD_D
-Text HLabel -1500 2200 0    56   Output ~ 0
+Text Label 5800 3200 0    56   ~ 0
 RXD_D3
-Text Label -1500 1900 0    56   ~ 0
+Text Label 5800 4600 0    56   ~ 0
 LED1uC
-Text Label -1500 2000 0    56   ~ 0
+Text Label 5800 4700 0    56   ~ 0
 LED2uC
 Wire Wire Line
-	-1500 2600 -1100 2600
+	5800 3300 6700 3300
 Wire Wire Line
-	-1100 2700 -1500 2700
+	6700 3200 5800 3200
 Wire Wire Line
-	-1500 2300 -1100 2300
+	6700 4600 5800 4600
 Wire Wire Line
-	-1100 2200 -1500 2200
-Wire Wire Line
-	-1100 1900 -1500 1900
-Wire Wire Line
-	-1100 2000 -1500 2000
-Text Label -1500 2400 0    56   ~ 0
+	6700 4700 5800 4700
+Text Label 5800 5300 0    56   ~ 0
 SW2
-Text Label -1500 2500 0    56   ~ 0
+Text Label 5800 5400 0    56   ~ 0
 SW3
-Text Label -1500 2800 0    56   ~ 0
+Text Label 5800 5500 0    56   ~ 0
 SW4
 Wire Wire Line
-	-1500 2400 -1100 2400
+	5800 5300 6700 5300
 Wire Wire Line
-	-1500 2500 -1100 2500
+	5800 5400 6700 5400
 Wire Wire Line
-	-1500 2800 -1100 2800
-Wire Wire Line
-	-1100 1500 -1500 1500
-Wire Wire Line
-	-1100 1400 -1500 1400
-Wire Wire Line
-	-1100 1300 -1500 1300
-Wire Wire Line
-	-1100 1700 -1500 1700
-Wire Wire Line
-	-1100 1800 -1500 1800
-Text HLabel -1500 1300 0    56   Input ~ 0
-~USB_SUSPEND
-Text HLabel -1500 1400 0    56   Input ~ 0
-~PWREN
-Text HLabel -1500 1500 0    56   Output ~ 0
-FTDI_RESET
-Text HLabel -1500 1700 0    56   Output ~ 0
-CLPD_OE
-Text HLabel -1500 1800 0    56   Output ~ 0
-CPLD_BOOT_EN
-Text Label -1500 2100 0    56   ~ 0
+	5800 5500 6700 5500
+Text Label 5800 5000 0    56   ~ 0
 LED5uC
 Wire Wire Line
-	-1100 2100 -1500 2100
-Text HLabel -1500 1600 0    56   Input ~ 0
-~VDD1_ERR
+	6700 5000 5800 5000
 Wire Wire Line
-	-1500 1600 -1100 1600
-Text Label -1500 2900 0    56   ~ 0
+	5800 3500 6700 3500
+Text Label 5800 4800 0    56   ~ 0
 LED3uC
-Text Label -1500 3000 0    56   ~ 0
+Text Label 5800 4900 0    56   ~ 0
 LED4uC
-Text Label -1500 4300 0    56   ~ 0
-COL4
+Text Label 5800 5700 0    56   ~ 0
+COL1
 Wire Wire Line
-	-1100 2900 -1500 2900
+	6700 4800 5800 4800
 Wire Wire Line
-	-1100 3000 -1500 3000
+	6700 4900 5800 4900
 Wire Wire Line
-	-1100 4300 -1500 4300
-Text HLabel -1500 3900 0    56   Output ~ 0
+	6700 5700 5800 5700
+Text Label 5800 6200 0    56   ~ 0
 I2C_PU_EN_B
-Text HLabel -1500 4000 0    56   Output ~ 0
+Text Label 5800 6300 0    56   ~ 0
 SPI_EN_B
 Wire Wire Line
-	-1500 3900 -1100 3900
+	5800 6200 6700 6200
 Wire Wire Line
-	-1500 4000 -1100 4000
-Text HLabel -1500 3200 0    56   Output ~ 0
+	5800 6300 6700 6300
+Text Label 5800 3700 0    56   ~ 0
 VDD1_SEL1
-Text HLabel -1500 3300 0    56   Output ~ 0
+Text Label 5800 3800 0    56   ~ 0
 VDD1_SEL2
-Text HLabel -1500 3400 0    56   Output ~ 0
+Text Label 5800 3900 0    56   ~ 0
 VDD1_SEL3
-Text HLabel -1500 3100 0    56   Output ~ 0
+Text Label 5800 3600 0    56   ~ 0
 ~VDD1_EN
 Wire Wire Line
-	-1500 3100 -1100 3100
+	5800 3600 6700 3600
 Wire Wire Line
-	-1500 3200 -1100 3200
+	5800 3700 6700 3700
 Wire Wire Line
-	-1500 3300 -1100 3300
+	5800 3800 6700 3800
 Wire Wire Line
-	-1500 3400 -1100 3400
-Text HLabel -1500 3600 0    56   Output ~ 0
+	5800 3900 6700 3900
+Text Label 5800 4200 0    56   ~ 0
 VDD2_SEL1
-Text HLabel -1500 3700 0    56   Output ~ 0
+Text Label 5800 4300 0    56   ~ 0
 VDD2_SEL2
-Text HLabel -1500 3800 0    56   Output ~ 0
+Text Label 5800 4400 0    56   ~ 0
 VDD2_SEL3
-Text HLabel -1500 3500 0    56   Output ~ 0
+Text Label 5800 4100 0    56   ~ 0
 ~VDD2_EN
 Wire Wire Line
-	-1500 3500 -1100 3500
+	5800 4100 6700 4100
 Wire Wire Line
-	-1500 3600 -1100 3600
+	5800 4200 6700 4200
 Wire Wire Line
-	-1500 3700 -1100 3700
+	5800 4300 6700 4300
 Wire Wire Line
-	-1500 3800 -1100 3800
+	5800 4400 6700 4400
+$Comp
+L Testpoint TP1
+U 1 1 5945A4B7
+P 6700 3200
+F 0 "TP1" V 6700 3350 56  0000 L CNN
+F 1 "Testpoint" V 6700 3350 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 3250 20  0001 C CNN
+F 3 "" H 6700 3250 60  0000 C CNN
+F 4 "Value" H 6700 3200 60  0001 C CNN "Fieldname"
+	1    6700 3200
+	0    1    1    0   
+$EndComp
+Text Label 5800 3500 0    56   ~ 0
+~VDD1_ERR
 Wire Wire Line
-	-1100 4400 -1500 4400
+	5800 6400 6700 6400
 Wire Wire Line
-	-1100 4200 -1500 4200
+	5800 6500 6700 6500
 Wire Wire Line
-	-1100 4100 -1500 4100
-Text HLabel -1500 4200 0    56   Output ~ 0
-SR_CLK
-Text HLabel -1500 4400 0    56   Output ~ 0
-SR_DATA
-Text HLabel -1500 4100 0    56   Output ~ 0
-SR_LOAD
+	5800 4000 6700 4000
+Text Label 5800 4000 0    56   ~ 0
+~VDD2_ERR
+Text Label 5800 6500 0    56   ~ 0
+SPI_EN_A
+Text Label 5800 6400 0    56   ~ 0
+I2C_PU_EN_A
+Text Label 5800 5200 0    56   ~ 0
+SW1
+Wire Wire Line
+	5800 5200 6700 5200
+Text Label 5800 5800 0    56   ~ 0
+COL2
+Wire Wire Line
+	6700 5800 5800 5800
+Text Label 5800 5900 0    56   ~ 0
+COL3
+Wire Wire Line
+	6700 5900 5800 5900
+Text Label 5800 6000 0    56   ~ 0
+COL4
+Wire Wire Line
+	6700 6000 5800 6000
+$Comp
+L +5V #PWR029
+U 1 1 5946A82C
+P 5950 7000
+F 0 "#PWR029" V 5915 7075 10  0001 C CNN
+F 1 "+5V" H 5950 7130 50  0000 C CNN
+F 2 "" H 5950 7000 50  0001 C CNN
+F 3 "" H 5950 7000 50  0001 C CNN
+	1    5950 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 7100 5950 7100
+Wire Wire Line
+	5950 7100 5950 7000
+$Comp
+L Testpoint TP2
+U 1 1 5946C287
+P 6700 3300
+F 0 "TP2" V 6700 3450 56  0000 L CNN
+F 1 "Testpoint" V 6700 3450 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 3350 20  0001 C CNN
+F 3 "" H 6700 3350 60  0000 C CNN
+F 4 "Value" H 6700 3300 60  0001 C CNN "Fieldname"
+	1    6700 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP24
+U 1 1 5946C387
+P 6700 5900
+F 0 "TP24" V 6700 6050 56  0000 L CNN
+F 1 "Testpoint" V 6700 6050 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 5950 20  0001 C CNN
+F 3 "" H 6700 5950 60  0000 C CNN
+F 4 "Value" H 6700 5900 60  0001 C CNN "Fieldname"
+	1    6700 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP12
+U 1 1 5946C38E
+P 6700 4400
+F 0 "TP12" V 6700 4550 56  0000 L CNN
+F 1 "Testpoint" V 6700 4550 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 4450 20  0001 C CNN
+F 3 "" H 6700 4450 60  0000 C CNN
+F 4 "Value" H 6700 4400 60  0001 C CNN "Fieldname"
+	1    6700 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP5
+U 1 1 5946C541
+P 6700 3700
+F 0 "TP5" V 6700 3850 56  0000 L CNN
+F 1 "Testpoint" V 6700 3850 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 3750 20  0001 C CNN
+F 3 "" H 6700 3750 60  0000 C CNN
+F 4 "Value" H 6700 3700 60  0001 C CNN "Fieldname"
+	1    6700 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP6
+U 1 1 5946C548
+P 6700 3800
+F 0 "TP6" V 6700 3950 56  0000 L CNN
+F 1 "Testpoint" V 6700 3950 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 3850 20  0001 C CNN
+F 3 "" H 6700 3850 60  0000 C CNN
+F 4 "Value" H 6700 3800 60  0001 C CNN "Fieldname"
+	1    6700 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP3
+U 1 1 5946C54F
+P 6700 3500
+F 0 "TP3" V 6700 3650 56  0000 L CNN
+F 1 "Testpoint" V 6700 3650 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 3550 20  0001 C CNN
+F 3 "" H 6700 3550 60  0000 C CNN
+F 4 "Value" H 6700 3500 60  0001 C CNN "Fieldname"
+	1    6700 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP4
+U 1 1 5946C556
+P 6700 3600
+F 0 "TP4" V 6700 3750 56  0000 L CNN
+F 1 "Testpoint" V 6700 3750 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 3650 20  0001 C CNN
+F 3 "" H 6700 3650 60  0000 C CNN
+F 4 "Value" H 6700 3600 60  0001 C CNN "Fieldname"
+	1    6700 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP9
+U 1 1 5946C651
+P 6700 4100
+F 0 "TP9" V 6700 4250 56  0000 L CNN
+F 1 "Testpoint" V 6700 4250 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 4150 20  0001 C CNN
+F 3 "" H 6700 4150 60  0000 C CNN
+F 4 "Value" H 6700 4100 60  0001 C CNN "Fieldname"
+	1    6700 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP10
+U 1 1 5946C658
+P 6700 4200
+F 0 "TP10" V 6700 4350 56  0000 L CNN
+F 1 "Testpoint" V 6700 4350 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 4250 20  0001 C CNN
+F 3 "" H 6700 4250 60  0000 C CNN
+F 4 "Value" H 6700 4200 60  0001 C CNN "Fieldname"
+	1    6700 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP7
+U 1 1 5946C65F
+P 6700 3900
+F 0 "TP7" V 6700 4050 56  0000 L CNN
+F 1 "Testpoint" V 6700 4050 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 3950 20  0001 C CNN
+F 3 "" H 6700 3950 60  0000 C CNN
+F 4 "Value" H 6700 3900 60  0001 C CNN "Fieldname"
+	1    6700 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP8
+U 1 1 5946C666
+P 6700 4000
+F 0 "TP8" V 6700 4150 56  0000 L CNN
+F 1 "Testpoint" V 6700 4150 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 4050 20  0001 C CNN
+F 3 "" H 6700 4050 60  0000 C CNN
+F 4 "Value" H 6700 4000 60  0001 C CNN "Fieldname"
+	1    6700 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP15
+U 1 1 5946C995
+P 6700 4800
+F 0 "TP15" V 6700 4950 56  0000 L CNN
+F 1 "Testpoint" V 6700 4950 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 4850 20  0001 C CNN
+F 3 "" H 6700 4850 60  0000 C CNN
+F 4 "Value" H 6700 4800 60  0001 C CNN "Fieldname"
+	1    6700 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP16
+U 1 1 5946C99C
+P 6700 4900
+F 0 "TP16" V 6700 5050 56  0000 L CNN
+F 1 "Testpoint" V 6700 5050 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 4950 20  0001 C CNN
+F 3 "" H 6700 4950 60  0000 C CNN
+F 4 "Value" H 6700 4900 60  0001 C CNN "Fieldname"
+	1    6700 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP13
+U 1 1 5946C9A3
+P 6700 4600
+F 0 "TP13" V 6700 4750 56  0000 L CNN
+F 1 "Testpoint" V 6700 4750 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 4650 20  0001 C CNN
+F 3 "" H 6700 4650 60  0000 C CNN
+F 4 "Value" H 6700 4600 60  0001 C CNN "Fieldname"
+	1    6700 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP14
+U 1 1 5946C9AA
+P 6700 4700
+F 0 "TP14" V 6700 4850 56  0000 L CNN
+F 1 "Testpoint" V 6700 4850 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 4750 20  0001 C CNN
+F 3 "" H 6700 4750 60  0000 C CNN
+F 4 "Value" H 6700 4700 60  0001 C CNN "Fieldname"
+	1    6700 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP19
+U 1 1 5946C9B1
+P 6700 5300
+F 0 "TP19" V 6700 5450 56  0000 L CNN
+F 1 "Testpoint" V 6700 5450 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 5350 20  0001 C CNN
+F 3 "" H 6700 5350 60  0000 C CNN
+F 4 "Value" H 6700 5300 60  0001 C CNN "Fieldname"
+	1    6700 5300
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP20
+U 1 1 5946C9B8
+P 6700 5400
+F 0 "TP20" V 6700 5550 56  0000 L CNN
+F 1 "Testpoint" V 6700 5550 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 5450 20  0001 C CNN
+F 3 "" H 6700 5450 60  0000 C CNN
+F 4 "Value" H 6700 5400 60  0001 C CNN "Fieldname"
+	1    6700 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP17
+U 1 1 5946C9BF
+P 6700 5000
+F 0 "TP17" V 6700 5150 56  0000 L CNN
+F 1 "Testpoint" V 6700 5150 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 5050 20  0001 C CNN
+F 3 "" H 6700 5050 60  0000 C CNN
+F 4 "Value" H 6700 5000 60  0001 C CNN "Fieldname"
+	1    6700 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP18
+U 1 1 5946C9C6
+P 6700 5200
+F 0 "TP18" V 6700 5350 56  0000 L CNN
+F 1 "Testpoint" V 6700 5350 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 5250 20  0001 C CNN
+F 3 "" H 6700 5250 60  0000 C CNN
+F 4 "Value" H 6700 5200 60  0001 C CNN "Fieldname"
+	1    6700 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP22
+U 1 1 5946C9CD
+P 6700 5700
+F 0 "TP22" V 6700 5850 56  0000 L CNN
+F 1 "Testpoint" V 6700 5850 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 5750 20  0001 C CNN
+F 3 "" H 6700 5750 60  0000 C CNN
+F 4 "Value" H 6700 5700 60  0001 C CNN "Fieldname"
+	1    6700 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP23
+U 1 1 5946C9D4
+P 6700 5800
+F 0 "TP23" V 6700 5950 56  0000 L CNN
+F 1 "Testpoint" V 6700 5950 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 5850 20  0001 C CNN
+F 3 "" H 6700 5850 60  0000 C CNN
+F 4 "Value" H 6700 5800 60  0001 C CNN "Fieldname"
+	1    6700 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP21
+U 1 1 5946C9DB
+P 6700 5500
+F 0 "TP21" V 6700 5650 56  0000 L CNN
+F 1 "Testpoint" V 6700 5650 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 5550 20  0001 C CNN
+F 3 "" H 6700 5550 60  0000 C CNN
+F 4 "Value" H 6700 5500 60  0001 C CNN "Fieldname"
+	1    6700 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP11
+U 1 1 5946C9E2
+P 6700 4300
+F 0 "TP11" V 6700 4450 56  0000 L CNN
+F 1 "Testpoint" V 6700 4450 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 4350 20  0001 C CNN
+F 3 "" H 6700 4350 60  0000 C CNN
+F 4 "Value" H 6700 4300 60  0001 C CNN "Fieldname"
+	1    6700 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP27
+U 1 1 5946D200
+P 6700 6300
+F 0 "TP27" V 6700 6450 56  0000 L CNN
+F 1 "Testpoint" V 6700 6450 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 6350 20  0001 C CNN
+F 3 "" H 6700 6350 60  0000 C CNN
+F 4 "Value" H 6700 6300 60  0001 C CNN "Fieldname"
+	1    6700 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP28
+U 1 1 5946D207
+P 6700 6400
+F 0 "TP28" V 6700 6550 56  0000 L CNN
+F 1 "Testpoint" V 6700 6550 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 6450 20  0001 C CNN
+F 3 "" H 6700 6450 60  0000 C CNN
+F 4 "Value" H 6700 6400 60  0001 C CNN "Fieldname"
+	1    6700 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP25
+U 1 1 5946D20E
+P 6700 6000
+F 0 "TP25" V 6700 6150 56  0000 L CNN
+F 1 "Testpoint" V 6700 6150 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 6050 20  0001 C CNN
+F 3 "" H 6700 6050 60  0000 C CNN
+F 4 "Value" H 6700 6000 60  0001 C CNN "Fieldname"
+	1    6700 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP26
+U 1 1 5946D215
+P 6700 6200
+F 0 "TP26" V 6700 6350 56  0000 L CNN
+F 1 "Testpoint" V 6700 6350 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 6250 20  0001 C CNN
+F 3 "" H 6700 6250 60  0000 C CNN
+F 4 "Value" H 6700 6200 60  0001 C CNN "Fieldname"
+	1    6700 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP29
+U 1 1 5946D21C
+P 6700 6500
+F 0 "TP29" V 6700 6650 56  0000 L CNN
+F 1 "Testpoint" V 6700 6650 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6900 6550 20  0001 C CNN
+F 3 "" H 6700 6550 60  0000 C CNN
+F 4 "Value" H 6700 6500 60  0001 C CNN "Fieldname"
+	1    6700 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L Testpoint TP32
+U 1 1 5946D45A
+P 6000 7100
+F 0 "TP32" V 6000 7250 56  0000 L CNN
+F 1 "Testpoint" V 6000 7250 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6200 7150 20  0001 C CNN
+F 3 "" H 6000 7150 60  0000 C CNN
+F 4 "Value" H 6000 7100 60  0001 C CNN "Fieldname"
+	1    6000 7100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 7100 5500 7100
+Wire Wire Line
+	5500 7100 5500 7000
+$Comp
+L Testpoint TP31
+U 1 1 5946D78C
+P 5550 7100
+F 0 "TP31" V 5550 7250 56  0000 L CNN
+F 1 "Testpoint" V 5550 7250 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 5750 7150 20  0001 C CNN
+F 3 "" H 5550 7150 60  0000 C CNN
+F 4 "Value" H 5550 7100 60  0001 C CNN "Fieldname"
+	1    5550 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L +3V3 #PWR030
+U 1 1 5946D8A7
+P 5500 7000
+F 0 "#PWR030" V 5460 7045 10  0001 C CNN
+F 1 "+3V3" H 5500 7130 50  0000 C CNN
+F 2 "" H 5500 7000 50  0001 C CNN
+F 3 "" H 5500 7000 50  0001 C CNN
+	1    5500 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 7450 5950 7450
+Wire Wire Line
+	5950 7450 5950 7350
+$Comp
+L Testpoint TP35
+U 1 1 5946DA23
+P 6000 7450
+F 0 "TP35" V 6000 7600 56  0000 L CNN
+F 1 "Testpoint" V 6000 7600 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6200 7500 20  0001 C CNN
+F 3 "" H 6000 7500 60  0000 C CNN
+F 4 "Value" H 6000 7450 60  0001 C CNN "Fieldname"
+	1    6000 7450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 7450 5500 7450
+Wire Wire Line
+	5500 7450 5500 7350
+$Comp
+L Testpoint TP34
+U 1 1 5946DA2C
+P 5550 7450
+F 0 "TP34" V 5550 7600 56  0000 L CNN
+F 1 "Testpoint" V 5550 7600 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 5750 7500 20  0001 C CNN
+F 3 "" H 5550 7500 60  0000 C CNN
+F 4 "Value" H 5550 7450 60  0001 C CNN "Fieldname"
+	1    5550 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L VDD1 #PWR031
+U 1 1 5946DA92
+P 5500 7350
+F 0 "#PWR031" V 5465 7430 10  0001 C CNN
+F 1 "VDD1" H 5500 7480 50  0000 C CNN
+F 2 "" H 5500 7350 50  0001 C CNN
+F 3 "" H 5500 7350 50  0001 C CNN
+	1    5500 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDD2 #PWR032
+U 1 1 5946DB62
+P 5950 7350
+F 0 "#PWR032" V 5915 7430 10  0001 C CNN
+F 1 "VDD2" H 5950 7480 50  0000 C CNN
+F 2 "" H 5950 7350 50  0001 C CNN
+F 3 "" H 5950 7350 50  0001 C CNN
+	1    5950 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR033
+U 1 1 5946DC8E
+P 6450 7400
+F 0 "#PWR033" H 6450 7200 50  0001 C CNN
+F 1 "GND" H 6450 7275 30  0001 C CNN
+F 2 "" H 6450 7400 50  0001 C CNN
+F 3 "" H 6450 7400 50  0001 C CNN
+	1    6450 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoint TP33
+U 1 1 5946DDB4
+P 6500 7300
+F 0 "TP33" V 6500 7450 56  0000 L CNN
+F 1 "Testpoint" V 6500 7450 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6700 7350 20  0001 C CNN
+F 3 "" H 6500 7350 60  0000 C CNN
+F 4 "Value" H 6500 7300 60  0001 C CNN "Fieldname"
+	1    6500 7300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 7300 6450 7300
+Wire Wire Line
+	6450 7300 6450 7400
+$Comp
+L GND #PWR034
+U 1 1 5946E141
+P 6450 7050
+F 0 "#PWR034" H 6450 6850 50  0001 C CNN
+F 1 "GND" H 6450 6925 30  0001 C CNN
+F 2 "" H 6450 7050 50  0001 C CNN
+F 3 "" H 6450 7050 50  0001 C CNN
+	1    6450 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Testpoint TP30
+U 1 1 5946E148
+P 6500 6950
+F 0 "TP30" V 6500 7100 56  0000 L CNN
+F 1 "Testpoint" V 6500 7100 60  0001 L CNN
+F 2 "pnConnector:TP_1mm" H 6700 7000 20  0001 C CNN
+F 3 "" H 6500 7000 60  0000 C CNN
+F 4 "Value" H 6500 6950 60  0001 C CNN "Fieldname"
+	1    6500 6950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 6950 6450 6950
+Wire Wire Line
+	6450 6950 6450 7050
 $EndSCHEMATC
