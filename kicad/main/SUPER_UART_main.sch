@@ -465,4 +465,6 @@ Connection ~ 11350 7500
 Wire Wire Line
 	11050 7550 11050 7500
 Connection ~ 11050 7500
+Text Notes 10600 4100 0    160  ~ 0
+wersja 64 pin, może jako opcja?
 $EndSCHEMATC
