@@ -3,3 +3,4 @@
 /kicad/*/*.net
 /~$*.xls*
 *.bak
+/kicad/front/pcb_history
