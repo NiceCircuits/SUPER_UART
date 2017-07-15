@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 19.924999 18.424999 120.075001 61.575001)
     (thickness 1.6)
-    (drawings 637)
+    (drawings 640)
     (tracks 5133)
     (zones 0)
     (modules 260)
@@ -14,24 +14,24 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal)
-    (1 In1.Cu signal)
+    (0 F.Cu signal hide)
+    (1 In1.Cu signal hide)
     (2 In2.Cu signal)
-    (31 B.Cu signal)
-    (32 B.Adhes user)
-    (33 F.Adhes user)
-    (34 B.Paste user)
-    (35 F.Paste user)
-    (36 B.SilkS user hide)
-    (37 F.SilkS user hide)
+    (31 B.Cu signal hide)
+    (32 B.Adhes user hide)
+    (33 F.Adhes user hide)
+    (34 B.Paste user hide)
+    (35 F.Paste user hide)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
     (38 B.Mask user hide)
-    (39 F.Mask user hide)
+    (39 F.Mask user)
     (40 Dwgs.User user hide)
     (41 Cmts.User user hide)
-    (42 Eco1.User user)
-    (43 Eco2.User user)
+    (42 Eco1.User user hide)
+    (43 Eco2.User user hide)
     (44 Edge.Cuts user)
-    (45 Margin user)
+    (45 Margin user hide)
     (46 B.CrtYd user hide)
     (47 F.CrtYd user hide)
     (48 B.Fab user hide)
@@ -69,7 +69,7 @@
     (pad_to_mask_clearance 0.1)
     (aux_axis_origin 0 0)
     (grid_origin 89 46.4)
-    (visible_elements 7FFFFA1F)
+    (visible_elements 7FFFFA3F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -1113,7 +1113,7 @@
     (fp_text reference SW1 (at 0 -1 270) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value 5V_1 (at 0 0 270) (layer F.SilkS)
+    (fp_text value 5V_1 (at 5.9 -0.1 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -1194,7 +1194,7 @@
     (fp_text reference SW2 (at 0 -1 270) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value 3V3_1 (at 0 0 270) (layer F.SilkS)
+    (fp_text value 3V3_1 (at 5.7 0 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -1275,7 +1275,7 @@
     (fp_text reference SW3 (at 0 -1 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value 2V5_1 (at 0 0 90) (layer F.SilkS)
+    (fp_text value 2V5_1 (at 5.8 -0.1 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -1356,7 +1356,7 @@
     (fp_text reference SW4 (at 0 -1 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value 1V8_1 (at 0 0 90) (layer F.SilkS)
+    (fp_text value 1V8_1 (at 6.2 2.4 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -1437,7 +1437,7 @@
     (fp_text reference SW5 (at 0 -1 270) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value RX (at 0 0 270) (layer F.SilkS)
+    (fp_text value RX (at 5.7 0 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -1518,7 +1518,7 @@
     (fp_text reference SW6 (at 0 -1 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value TX (at 0 0 90) (layer F.SilkS)
+    (fp_text value TX (at 5.6 -0.5 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -1599,7 +1599,7 @@
     (fp_text reference SW7 (at 0 -1 270) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value SPY (at 0 0 270) (layer F.SilkS)
+    (fp_text value SPY (at 5.7 0.1 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -1680,7 +1680,7 @@
     (fp_text reference SW8 (at 0 -1 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value ISO (at 0 0 90) (layer F.SilkS)
+    (fp_text value ISO (at 5.6 0 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -1761,7 +1761,7 @@
     (fp_text reference SW9 (at 0 -1 270) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value 5V_2 (at 0 0 270) (layer F.SilkS)
+    (fp_text value 5V_2 (at 5.9 -1.6 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -1842,7 +1842,7 @@
     (fp_text reference SW10 (at 0 -1 270) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value 3V3_2 (at 0 0 270) (layer F.SilkS)
+    (fp_text value 3V3_2 (at 5.7 0.9 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -1923,7 +1923,7 @@
     (fp_text reference SW11 (at 0 -1 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value 2V5_2 (at 0 0 90) (layer F.SilkS)
+    (fp_text value 2V5_2 (at 5.6 0.2 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -2004,7 +2004,7 @@
     (fp_text reference SW12 (at 0 -1 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value 1V8_2 (at 0 0 90) (layer F.SilkS)
+    (fp_text value 1V8_2 (at 6.2 -0.1 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -2540,7 +2540,7 @@
     (fp_text reference SW13 (at 0 -1 270) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value I2C_A (at 0 0 270) (layer F.SilkS)
+    (fp_text value I2C_A (at 5.7 0.9 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -2621,7 +2621,7 @@
     (fp_text reference SW14 (at 0 -1 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value SPI_A (at 0 0 90) (layer F.SilkS)
+    (fp_text value SPI_A (at 6 -1.1 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -2702,7 +2702,7 @@
     (fp_text reference SW15 (at 0 -1 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value I2C_B (at 0 0 90) (layer F.SilkS)
+    (fp_text value I2C_B (at 5.6 0.1 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -2783,7 +2783,7 @@
     (fp_text reference SW16 (at 0 -1 270) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value SPI_B (at 0 0 270) (layer F.SilkS)
+    (fp_text value SPI_B (at 5.7 0.1 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -2858,14 +2858,14 @@
     )
   )
 
-  (module pnSwitches:TACTB-64K-F locked (layer F.Cu) (tedit 59050269) (tstamp 590C5BEB)
+  (module pnSwitches:TACTB-64K-F locked (layer F.Cu) (tedit 5969DF30) (tstamp 590C5BEB)
     (at 101.1 39.5 90)
     (path /5914893E/59119B13)
     (fp_text reference SW17 (at 0 -1 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value BOOT (at 0 0 90) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text value BOOT (at -0.1 3.9 180) (layer F.SilkS)
+      (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
     (fp_line (start 0 1) (end 0 -1) (layer F.CrtYd) (width 0.05))
@@ -11709,13 +11709,13 @@
       (net 8 VDD2) (solder_mask_margin 0.05) (zone_connect 2))
   )
 
-  (module pnIDC:IDC10 locked (layer F.Cu) (tedit 0) (tstamp 5944793D)
+  (module pnIDC:IDC10 (layer F.Cu) (tedit 5969DC22) (tstamp 5944793D)
     (at 79.1 50.25)
     (path /59119AE0/590B97B0)
-    (fp_text reference CON4 (at 0 6) (layer F.SilkS)
+    (fp_text reference CON4 (at 0 6) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "PORT D" (at 0 -3.2) (layer F.SilkS)
+    (fp_text value "PORT D" (at 8.7 5.15) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -10.15 -4.2) (end -10.15 4.2) (layer F.SilkS) (width 0.15))
@@ -11757,7 +11757,7 @@
     (fp_text reference SW19 (at 0 -1 90) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value RTS (at 0 0 90) (layer F.SilkS)
+    (fp_text value RTS (at 0.1 -4.4 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -11838,7 +11838,7 @@
     (fp_text reference SW18 (at 0 -1 270) (layer F.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.05)))
     )
-    (fp_text value DTR (at 0 0 270) (layer F.SilkS)
+    (fp_text value DTR (at 0.1 4.4 360) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -1 0) (end 1 0) (layer F.CrtYd) (width 0.05))
@@ -11913,10 +11913,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59464260)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DAF5) (tstamp 59464260)
     (at 115.5 57.1)
     (path /5914893E/59101C7E)
-    (fp_text reference LED1 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED1 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 5V_1 (at 0 1.6) (layer F.SilkS) hide
@@ -11943,10 +11943,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59464265)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DAF7) (tstamp 59464265)
     (at 106 57.1)
     (path /5914893E/59101C8B)
-    (fp_text reference LED2 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED2 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 3V3_1 (at 0 1.6) (layer F.SilkS) hide
@@ -11973,10 +11973,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 5946426A)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DA95) (tstamp 5946426A)
     (at 115.5 43.4)
     (path /5914893E/59101C98)
-    (fp_text reference LED3 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED3 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 2V5_1 (at 0 1.6) (layer F.SilkS) hide
@@ -12003,10 +12003,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 5946426F)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DB14) (tstamp 5946426F)
     (at 106 43.4)
     (path /5914893E/59101CA5)
-    (fp_text reference LED4 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED4 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1V8_1 (at 0 1.6) (layer F.SilkS) hide
@@ -12033,10 +12033,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59464274)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DB01) (tstamp 59464274)
     (at 96.5 57.1)
     (path /5914893E/591038DB)
-    (fp_text reference LED5 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED5 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RX (at 0 1.6) (layer F.SilkS) hide
@@ -12063,10 +12063,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59464279)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DB0F) (tstamp 59464279)
     (at 96.5 43.4)
     (path /5914893E/59104764)
-    (fp_text reference LED6 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED6 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TX (at 0 1.6) (layer F.SilkS) hide
@@ -12093,10 +12093,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 5946427E)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC7A) (tstamp 5946427E)
     (at 43.5 36.1)
     (path /5914893E/59106835)
-    (fp_text reference LED7 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED7 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SPY (at 0 1.6) (layer F.SilkS) hide
@@ -12123,10 +12123,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59464283)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC85) (tstamp 59464283)
     (at 43.5 22.4)
     (path /5914893E/591048D0)
-    (fp_text reference LED8 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED8 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value ISO (at 0 1.6) (layer F.SilkS) hide
@@ -12153,10 +12153,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59464288)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC77) (tstamp 59464288)
     (at 34 36.1)
     (path /5914893E/59100C4E)
-    (fp_text reference LED9 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED9 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 5V_2 (at 0 1.6) (layer F.SilkS) hide
@@ -12183,10 +12183,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 5946428D)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC75) (tstamp 5946428D)
     (at 24.5 36.1)
     (path /5914893E/59101172)
-    (fp_text reference LED10 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED10 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 3V3_2 (at 0 1.6) (layer F.SilkS) hide
@@ -12213,10 +12213,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59464292)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC87) (tstamp 59464292)
     (at 34 22.4)
     (path /5914893E/5910129D)
-    (fp_text reference LED11 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED11 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 2V5_2 (at 0 1.6) (layer F.SilkS) hide
@@ -12243,10 +12243,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59464297)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC8A) (tstamp 59464297)
     (at 24.5 22.4)
     (path /5914893E/591012AA)
-    (fp_text reference LED12 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED12 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 1V8_2 (at 0 1.6) (layer F.SilkS) hide
@@ -12273,10 +12273,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 5946429C)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC68) (tstamp 5946429C)
     (at 24.5 43.4)
     (path /5914893E/59104B21)
-    (fp_text reference LED13 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED13 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value I2C_A (at 0 1.6) (layer F.SilkS) hide
@@ -12303,10 +12303,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D (layer F.Cu) (tedit 5399FB0C) (tstamp 594642A1)
+  (module pnSemiconductor:0805D (layer F.Cu) (tedit 5969DC5F) (tstamp 594642A1)
     (at 24.5 57.1)
     (path /5914893E/59104C93)
-    (fp_text reference LED14 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED14 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SPI_A (at 0 1.6) (layer F.SilkS) hide
@@ -12333,10 +12333,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 594642A6)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC82) (tstamp 594642A6)
     (at 53 22.4)
     (path /5914893E/5910681D)
-    (fp_text reference LED15 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED15 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value I2C_B (at 0 1.6) (layer F.SilkS) hide
@@ -12363,10 +12363,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 594642AB)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC7F) (tstamp 594642AB)
     (at 53 36.1)
     (path /5914893E/59106823)
-    (fp_text reference LED16 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED16 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SPI_B (at 0 1.6) (layer F.SilkS) hide
@@ -12393,10 +12393,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 594642B0)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC54) (tstamp 594642B0)
     (at 37.9984 52.2605)
     (path /5914893E/593FE1E3)
-    (fp_text reference LED17 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED17 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value EN_A (at 0 1.6) (layer F.SilkS) hide
@@ -12423,10 +12423,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D (layer F.Cu) (tedit 5399FB0C) (tstamp 594642B5)
+  (module pnSemiconductor:0805D (layer F.Cu) (tedit 5969DCC9) (tstamp 594642B5)
     (at 67.9958 30.2641 180)
     (path /5914893E/593FE1E9)
-    (fp_text reference LED18 (at 0 -1.5 180) (layer F.SilkS)
+    (fp_text reference LED18 (at 0 -1.5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value EN_B (at 0 1.6 180) (layer F.SilkS) hide
@@ -12453,10 +12453,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 594642BA)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC41) (tstamp 594642BA)
     (at 52.9971 52.2605)
     (path /5914893E/593FE1EF)
-    (fp_text reference LED19 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED19 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value EN_C (at 0 1.6) (layer F.SilkS) hide
@@ -12483,11 +12483,11 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 594642BF)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC1A) (tstamp 594642BF)
     (at 84.1756 57.4929 90)
     (path /5914893E/593FE1F5)
-    (fp_text reference LED20 (at 0 -1.5 90) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference LED20 (at 3.4929 0.6244 90) (layer F.SilkS) hide
+      (effects (font (size 0.6 0.6) (thickness 0.15)))
     )
     (fp_text value EN_D (at 0 1.6 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
@@ -12513,10 +12513,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 594642C4)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DA77) (tstamp 594642C4)
     (at 115.5 22.4)
     (path /5933A622/5933BD66)
-    (fp_text reference LED21 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED21 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DTR (at 0 1.6) (layer F.SilkS) hide
@@ -12543,10 +12543,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 594642C9)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DA93) (tstamp 594642C9)
     (at 115.5 36.1)
     (path /5933A622/5933BD6D)
-    (fp_text reference LED22 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED22 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RTS (at 0 1.6) (layer F.SilkS) hide
@@ -12573,10 +12573,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BB1)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC1D) (tstamp 59466BB1)
     (at 81.6356 57.4929 90)
     (path /5933A622/59433257)
-    (fp_text reference LED23 (at 0 -1.5 90) (layer F.SilkS)
+    (fp_text reference LED23 (at 0 -1.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RI (at 0 1.6 90) (layer F.SilkS) hide
@@ -12603,10 +12603,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BB6)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC1F) (tstamp 59466BB6)
     (at 79.0956 57.4929 90)
     (path /5933A622/59433250)
-    (fp_text reference LED24 (at 0 -1.5 90) (layer F.SilkS)
+    (fp_text reference LED24 (at 0 -1.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CTS (at 0 1.6 90) (layer F.SilkS) hide
@@ -12633,10 +12633,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BBB)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC28) (tstamp 59466BBB)
     (at 74.0156 57.4954 90)
     (path /5933A622/594332AB)
-    (fp_text reference LED25 (at 0 -1.5 90) (layer F.SilkS)
+    (fp_text reference LED25 (at 0 -1.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DSR (at 0 1.6 90) (layer F.SilkS) hide
@@ -12663,10 +12663,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BC0)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC39) (tstamp 59466BC0)
     (at 74.0156 42.9895 90)
     (path /5933A622/594332A4)
-    (fp_text reference LED26 (at 0 -1.5 90) (layer F.SilkS)
+    (fp_text reference LED26 (at 0 -1.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DCD (at 0 1.6 90) (layer F.SilkS) hide
@@ -12693,10 +12693,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BC5)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC34) (tstamp 59466BC5)
     (at 79.0956 42.9895 90)
     (path /59119AE0/590DE6BF)
-    (fp_text reference LED27 (at 0 -1.5 90) (layer F.SilkS)
+    (fp_text reference LED27 (at 0 -1.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TXD (at 0 1.6 90) (layer F.SilkS) hide
@@ -12723,10 +12723,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BCA)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC37) (tstamp 59466BCA)
     (at 76.5556 42.9895 90)
     (path /59119AE0/590DE5C7)
-    (fp_text reference LED28 (at 0 -1.5 90) (layer F.SilkS)
+    (fp_text reference LED28 (at 0 -1.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RXD (at 0 1.6 90) (layer F.SilkS) hide
@@ -12753,10 +12753,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BCF)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC31) (tstamp 59466BCF)
     (at 81.6356 42.9895 90)
     (path /59119AE0/590DD32B)
-    (fp_text reference LED29 (at 0 -1.5 90) (layer F.SilkS)
+    (fp_text reference LED29 (at 0 -1.5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DTR (at 0 1.6 90) (layer F.SilkS) hide
@@ -12783,10 +12783,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BD4)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC26) (tstamp 59466BD4)
     (at 76.5556 57.4929 90)
     (path /59119AE0/590F9714)
-    (fp_text reference LED30 (at 0 -1.5 90) (layer F.SilkS)
+    (fp_text reference LED30 (at 0 -1.5 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RTS (at 0 1.6 90) (layer F.SilkS) hide
@@ -12813,10 +12813,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BD9)
+  (module pnSemiconductor:0805D (layer F.Cu) (tedit 5969DCC1) (tstamp 59466BD9)
     (at 67.9958 22.6441)
     (path /59119AE0/592F9044)
-    (fp_text reference LED31 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED31 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DTR (at 0 1.6) (layer F.SilkS) hide
@@ -12843,10 +12843,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BDE)
+  (module pnSemiconductor:0805D (layer F.Cu) (tedit 5969DCCB) (tstamp 59466BDE)
     (at 67.9958 32.8041)
     (path /59119AE0/592F9060)
-    (fp_text reference LED32 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED32 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CTS (at 0 1.6) (layer F.SilkS) hide
@@ -12873,10 +12873,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BE3)
+  (module pnSemiconductor:0805D (layer F.Cu) (tedit 5969DCC3) (tstamp 59466BE3)
     (at 67.9958 25.1841 180)
     (path /59119AE0/592F9052)
-    (fp_text reference LED33 (at 0 -1.5 180) (layer F.SilkS)
+    (fp_text reference LED33 (at 0 -1.5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RXD (at 0 1.6 180) (layer F.SilkS) hide
@@ -12903,10 +12903,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BE8)
+  (module pnSemiconductor:0805D (layer F.Cu) (tedit 5969DCC5) (tstamp 59466BE8)
     (at 67.9958 27.7241 180)
     (path /59119AE0/592F9059)
-    (fp_text reference LED34 (at 0 -1.5 180) (layer F.SilkS)
+    (fp_text reference LED34 (at 0 -1.5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TXD (at 0 1.6 180) (layer F.SilkS) hide
@@ -12933,10 +12933,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BED)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC5A) (tstamp 59466BED)
     (at 38 44.6405)
     (path /5911B250/590E3FF2)
-    (fp_text reference LED35 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED35 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DTR (at 0 1.6) (layer F.SilkS) hide
@@ -12963,10 +12963,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BF2)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC4E) (tstamp 59466BF2)
     (at 37.9984 54.8005)
     (path /5911B250/590E400A)
-    (fp_text reference LED36 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED36 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CTS (at 0 1.6) (layer F.SilkS) hide
@@ -12993,10 +12993,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BF7)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC57) (tstamp 59466BF7)
     (at 38 47.1805 180)
     (path /5911B250/590E3FFE)
-    (fp_text reference LED37 (at 0 -1.5 180) (layer F.SilkS)
+    (fp_text reference LED37 (at 0 -1.5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RXD (at 0 1.6 180) (layer F.SilkS) hide
@@ -13023,10 +13023,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466BFC)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC52) (tstamp 59466BFC)
     (at 37.9984 49.7205 180)
     (path /5911B250/590E4004)
-    (fp_text reference LED38 (at 0 -1.5 180) (layer F.SilkS)
+    (fp_text reference LED38 (at 0 -1.5 180) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TXD (at 0 1.6 180) (layer F.SilkS) hide
@@ -13053,10 +13053,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466C01)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC49) (tstamp 59466C01)
     (at 52.9971 44.6405)
     (path /5911B250/590E4616)
-    (fp_text reference LED39 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED39 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DTR (at 0 1.6) (layer F.SilkS) hide
@@ -13083,10 +13083,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466C06)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC3F) (tstamp 59466C06)
     (at 52.9971 54.8005)
     (path /5911B250/590E462E)
-    (fp_text reference LED40 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED40 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value CTS (at 0 1.6) (layer F.SilkS) hide
@@ -13113,10 +13113,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466C0B)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC46) (tstamp 59466C0B)
     (at 52.9971 47.1805)
     (path /5911B250/590E4622)
-    (fp_text reference LED41 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED41 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value RXD (at 0 1.6) (layer F.SilkS) hide
@@ -13143,10 +13143,10 @@
     )
   )
 
-  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5399FB0C) (tstamp 59466C10)
+  (module pnSemiconductor:0805D locked (layer F.Cu) (tedit 5969DC43) (tstamp 59466C10)
     (at 52.9971 49.7205)
     (path /5911B250/590E4628)
-    (fp_text reference LED42 (at 0 -1.5) (layer F.SilkS)
+    (fp_text reference LED42 (at 0 -1.5) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value TXD (at 0 1.6) (layer F.SilkS) hide
@@ -15624,6 +15624,15 @@
     )
   )
 
+  (gr_text http://nicecircuits.com/uart/ (at 90.8 20.2) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)))
+  )
+  (gr_text NOP040 (at 24.4 19.8) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
+  )
+  (gr_text niceUART (at 72.6 20) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text 4 (at 105.9 21.2) (layer B.Cu) (tstamp 5969BB15)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
