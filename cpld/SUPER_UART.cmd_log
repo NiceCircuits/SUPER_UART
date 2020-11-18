@@ -1,0 +1,28 @@
+xst -intstyle ise -ifn "D:/OneDrive/super_UART/cpld/SUPER_UART.xst" -ofn "D:/OneDrive/super_UART/cpld/SUPER_UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc SUPER_UART.ucf -p xc9536xl-VQ64-10 SUPER_UART.ngc SUPER_UART.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ64 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper SUPER_UART.ngd 
+XSLTProcess SUPER_UART_build.xml 
+xst -intstyle ise -ifn "D:/OneDrive/super_UART/cpld/SUPER_UART.xst" -ofn "D:/OneDrive/super_UART/cpld/SUPER_UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc SUPER_UART.ucf -p xc9536xl-VQ64-10 SUPER_UART.ngc SUPER_UART.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ64 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper SUPER_UART.ngd 
+XSLTProcess SUPER_UART_build.xml 
+tsim -intstyle ise SUPER_UART SUPER_UART.nga 
+hprep6 -s IEEE1149 -n SUPER_UART -i SUPER_UART 
+xst -intstyle ise -ifn "D:/OneDrive/super_UART/cpld/SUPER_UART.xst" -ofn "D:/OneDrive/super_UART/cpld/SUPER_UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc SUPER_UART.ucf -p xc9536xl-VQ64-10 SUPER_UART.ngc SUPER_UART.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ64 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper SUPER_UART.ngd 
+XSLTProcess SUPER_UART_build.xml 
+tsim -intstyle ise SUPER_UART SUPER_UART.nga 
+hprep6 -s IEEE1149 -n SUPER_UART -i SUPER_UART 
+xst -intstyle ise -ifn "D:/OneDrive/super_UART/cpld/SUPER_UART.xst" -ofn "D:/OneDrive/super_UART/cpld/SUPER_UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc SUPER_UART.ucf -p xc9536xl-VQ64-10 SUPER_UART.ngc SUPER_UART.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ64 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper SUPER_UART.ngd 
+XSLTProcess SUPER_UART_build.xml 
+tsim -intstyle ise SUPER_UART SUPER_UART.nga 
+hprep6 -s IEEE1149 -n SUPER_UART -i SUPER_UART 
+xst -intstyle ise -ifn "D:/OneDrive/super_UART/cpld/SUPER_UART.xst" -ofn "D:/OneDrive/super_UART/cpld/SUPER_UART.syr" 
+ngdbuild -intstyle ise -dd _ngo -uc SUPER_UART.ucf -p xc9536xl-VQ64-10 SUPER_UART.ngc SUPER_UART.ngd  
+cpldfit -intstyle ise -p xc9536xl-10-VQ64 -ofmt vhdl -optimize speed -htmlrpt -loc on -slew fast -init low -inputs 54 -pterms 25 -unused float -power std -terminate keeper SUPER_UART.ngd 
+XSLTProcess SUPER_UART_build.xml 
+tsim -intstyle ise SUPER_UART SUPER_UART.nga 
+hprep6 -s IEEE1149 -n SUPER_UART -i SUPER_UART 

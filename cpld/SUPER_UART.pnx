@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE ibis [
+<!ELEMENT ibis (part, pin+)>
+<!ELEMENT part EMPTY>
+<!ELEMENT pin EMPTY>
+<!ATTLIST part
+  arch   CDATA #REQUIRED
+  device CDATA #REQUIRED
+  spg    CDATA #REQUIRED
+  pkg    CDATA #REQUIRED>
+<!ATTLIST pin
+  nm     CDATA #REQUIRED
+  no     CDATA #REQUIRED
+  iostd  (TTL|LVTTL|LVCMOS2|NA) "NA"
+  sr     (SLOW|FAST|slow|fast) "SLOW"
+  dir    (BIDIR|bidir|INPUT|input|OUTPUT|output) "BIDIR">
+]>
+<ibis><part arch="xc9500xl" device="XC9536XL" pkg="VQ64" spg="-10"/><pin dir="input" nm="CPLD_OE" no="43"/><pin dir="input" nm="FTDI_TXD_A" no="17"/><pin dir="input" nm="FTDI_TXD_B" no="9"/><pin dir="input" nm="RXD_D" no="61"/><pin dir="input" nm="RXD_B" no="48"/><pin dir="input" nm="FTDI_TXD_D" no="64"/><pin dir="input" nm="RXD_A" no="25"/><pin dir="input" nm="SR_LOAD" no="39"/><pin dir="input" nm="SR_DATA" no="50"/><pin dir="input" nm="SR_CLK" no="38"/><pin dir="input" nm="TXD_C" no="33"/><pin dir="input" nm="FTDI_TXD_D_INT" no="22"/><pin dir="input" nm="FTDI_DTR_B" no="5"/><pin dir="input" nm="RXD_C" no="44"/><pin dir="input" nm="FTDI_DTR_A" no="10"/><pin dir="output" nm="RXD_A_OC" no="36" sr="fast"/><pin dir="output" nm="CTS_A_OC" no="27" sr="fast"/><pin dir="output" nm="RXD_B_OC" no="49" sr="fast"/><pin dir="output" nm="CTS_B_OC" no="57" sr="fast"/><pin dir="output" nm="FTDI_RTS_B" no="7" sr="fast"/><pin dir="output" nm="TXD_D" no="62" sr="fast"/><pin dir="output" nm="FTDI_RTS_A" no="15" sr="fast"/><pin dir="output" nm="OPTO_EN" no="20" sr="fast"/><pin dir="output" nm="DTR_A" no="45" sr="fast"/><pin dir="output" nm="DTR_B" no="42" sr="fast"/><pin dir="output" nm="FTDI_RXD_C" no="2" sr="fast"/><pin dir="output" nm="FTDI_RXD_D" no="63" sr="fast"/><pin dir="output" nm="BUZZER" no="19" sr="fast"/><pin dir="output" nm="TXD_A" no="35" sr="fast"/><pin dir="output" nm="TXD_B" no="56" sr="fast"/><pin dir="bidir" nm="FTDI_RXD_A" no="16" sr="fast"/><pin dir="bidir" nm="FTDI_RXD_B" no="8" sr="fast"/><pin dir="bidir" nm="CTS_A" no="24" sr="fast"/><pin dir="bidir" nm="FTDI_CTS_B" no="6" sr="fast"/><pin dir="bidir" nm="CTS_B" no="60" sr="fast"/><pin dir="bidir" nm="FTDI_CTS_A" no="11" sr="fast"/></ibis>

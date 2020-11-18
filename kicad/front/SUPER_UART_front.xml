@@ -1,0 +1,4006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/super_UART/kicad/front/SUPER_UART_front.sch</source>
+    <date>2017-07-25 21:27:49</date>
+    <tool>Eeschema 4.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>USB-UART converter</title>
+        <company>nicecircuits.com</company>
+        <rev>1</rev>
+        <date>2017-07-16</date>
+        <source>SUPER_UART_front.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/SUPER_UART_front_uC/" tstamps="/5914893E/">
+      <title_block>
+        <title>USB-UART converter</title>
+        <company>nicecircuits.com</company>
+        <rev>1</rev>
+        <date>2017-07-16</date>
+        <source>SUPER_UART_front_uC.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/SUPER_UART_front_RS232/" tstamps="/5933A622/">
+      <title_block>
+        <title>USB-UART converter</title>
+        <company>nicecircuits.com</company>
+        <rev>1</rev>
+        <date>2017-07-16</date>
+        <source>SUPER_UART_front_RS232.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/SUPER_UART_front_UART1/" tstamps="/59119AE0/">
+      <title_block>
+        <title>USB-UART converter</title>
+        <company>nicecircuits.com</company>
+        <rev>1</rev>
+        <date>2017-07-16</date>
+        <source>SUPER_UART_front_UART1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/SUPER_UART_front_UART234/" tstamps="/5911B250/">
+      <title_block>
+        <title>USB-UART converter</title>
+        <company>nicecircuits.com</company>
+        <rev>1</rev>
+        <date>2017-07-16</date>
+        <source>SUPER_UART_front_UART234.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="MECH1">
+      <value>case</value>
+      <footprint>dummy</footprint>
+      <libsource lib="niceMechanical" part="dummy_mech"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>592C8391</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>niceRLC:0805_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59425D7D</tstamp>
+    </comp>
+    <comp ref="CON11">
+      <value>PIN-2x12</value>
+      <footprint>pnPinheaders:PIN12x2SMD</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="nicePinheaders" part="PIN-2x12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594BB140</tstamp>
+    </comp>
+    <comp ref="CON1">
+      <value>PIN-2x4</value>
+      <footprint>pnPinheaders:PIN4x2SMD</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="nicePinheaders" part="PIN-2x4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594BB9C9</tstamp>
+    </comp>
+    <comp ref="CON10">
+      <value>PIN-2x5</value>
+      <footprint>pnPinheaders:PIN5x2SMD</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="nicePinheaders" part="PIN-2x5"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594D28D2</tstamp>
+    </comp>
+    <comp ref="CON9">
+      <value>PIN-2x2</value>
+      <footprint>pnPinheaders:PIN2x2SMD</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="nicePinheaders" part="PIN-2x2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>594DB2E3</tstamp>
+    </comp>
+    <comp ref="TP30">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596C8921</tstamp>
+    </comp>
+    <comp ref="TP33">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596C892F</tstamp>
+    </comp>
+    <comp ref="TP34">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596C8949</tstamp>
+    </comp>
+    <comp ref="TP35">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596C8951</tstamp>
+    </comp>
+    <comp ref="TP31">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596C895F</tstamp>
+    </comp>
+    <comp ref="TP32">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596C8967</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>1V8_1</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590B8DB7</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>2V5_1</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590B912A</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>3V3_1</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590B9182</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>5V_1</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590B9192</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>1V8_2</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590B959B</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>2V5_2</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590B95AB</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>3V3_2</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590B95BA</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>5V_2</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590B95C9</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>SPI_B</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590CA602</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>I2C_B</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590CA60E</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>ISO</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590CA61A</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>SPI_A</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590CAE3E</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>SPY</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590CAE51</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>TX</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590CB78C</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>RX</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590CB798</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>I2C_A</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>590CBE10</tstamp>
+    </comp>
+    <comp ref="LED9">
+      <value>5V_2</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59100C4E</tstamp>
+    </comp>
+    <comp ref="LED10">
+      <value>3V3_2</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59101172</tstamp>
+    </comp>
+    <comp ref="LED11">
+      <value>2V5_2</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5910129D</tstamp>
+    </comp>
+    <comp ref="LED12">
+      <value>1V8_2</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>591012AA</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>5V_1</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59101C7E</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>3V3_1</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59101C8B</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>2V5_1</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59101C98</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>1V8_1</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59101CA5</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>RX</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>591038DB</tstamp>
+    </comp>
+    <comp ref="LED6">
+      <value>TX</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59104764</tstamp>
+    </comp>
+    <comp ref="LED8">
+      <value>ISO</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>591048D0</tstamp>
+    </comp>
+    <comp ref="LED13">
+      <value>I2C_A</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59104B21</tstamp>
+    </comp>
+    <comp ref="LED14">
+      <value>SPI_A</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59104C93</tstamp>
+    </comp>
+    <comp ref="LED15">
+      <value>I2C_B</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5910681D</tstamp>
+    </comp>
+    <comp ref="LED16">
+      <value>SPI_B</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59106823</tstamp>
+    </comp>
+    <comp ref="LED7">
+      <value>SPY</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59106835</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>BOOT</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59119B13</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>PDTA143ZT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="pnTransistor" part="PDTA143ZT"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59119B20</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAS70</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="BAS70"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59119B5D</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59119B64</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1u</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59119B72</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59119B7F</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5935F8BD</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59360801</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>593608B5</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59360A11</tstamp>
+    </comp>
+    <comp ref="RN1">
+      <value>R</value>
+      <footprint>niceRLC:4x0603_N</footprint>
+      <libsource lib="pnRC" part="R_network_4"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59346605</tstamp>
+    </comp>
+    <comp ref="RN2">
+      <value>N.C.</value>
+      <footprint>niceRLC:4x0603_N</footprint>
+      <libsource lib="pnRC" part="R_network_4"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5935B19D</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MIC5504-3.3YM5-TR</value>
+      <footprint>niceSemiconductors:SOT23-5_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnPowerManagement" part="MIC5504-3.3YM5-TR"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>593F0DF0</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>593F26C7</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>1u</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>593F34AD</tstamp>
+    </comp>
+    <comp ref="LED17">
+      <value>EN_A</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>593FE1E3</tstamp>
+    </comp>
+    <comp ref="LED18">
+      <value>EN_B</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>593FE1E9</tstamp>
+    </comp>
+    <comp ref="LED19">
+      <value>EN_C</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>593FE1EF</tstamp>
+    </comp>
+    <comp ref="LED20">
+      <value>EN_D</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>593FE1F5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>niceRLC:0603_R_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59403C33</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10u</value>
+      <footprint>niceRLC:0805_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>594359BD</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10u</value>
+      <footprint>niceRLC:0805_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5943774A</tstamp>
+    </comp>
+    <comp ref="CON2">
+      <value>PIN-2x3</value>
+      <footprint>pnPinheaders:PIN3x2SMD</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="nicePinheaders" part="PIN-2x3"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59447EE9</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5945A4B7</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C287</tstamp>
+    </comp>
+    <comp ref="TP24">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C387</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C38E</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C541</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C548</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C54F</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C556</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C651</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C658</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C65F</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C666</tstamp>
+    </comp>
+    <comp ref="TP15">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C995</tstamp>
+    </comp>
+    <comp ref="TP16">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C99C</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C9A3</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C9AA</tstamp>
+    </comp>
+    <comp ref="TP19">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C9B1</tstamp>
+    </comp>
+    <comp ref="TP20">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C9B8</tstamp>
+    </comp>
+    <comp ref="TP17">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C9BF</tstamp>
+    </comp>
+    <comp ref="TP18">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C9C6</tstamp>
+    </comp>
+    <comp ref="TP22">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C9CD</tstamp>
+    </comp>
+    <comp ref="TP23">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C9D4</tstamp>
+    </comp>
+    <comp ref="TP21">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C9DB</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946C9E2</tstamp>
+    </comp>
+    <comp ref="TP27">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946D200</tstamp>
+    </comp>
+    <comp ref="TP28">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946D207</tstamp>
+    </comp>
+    <comp ref="TP25">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946D20E</tstamp>
+    </comp>
+    <comp ref="TP26">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946D215</tstamp>
+    </comp>
+    <comp ref="TP29">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>5946D21C</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>STM32F030R8T6</value>
+      <footprint>niceSemiconductors:QFP-64-0.5_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceSTM32" part="STM32F030R8T6"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>59592CCA</tstamp>
+    </comp>
+    <comp ref="TP36">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>595CE04F</tstamp>
+    </comp>
+    <comp ref="TP37">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>595CF0B7</tstamp>
+    </comp>
+    <comp ref="TP38">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>595CF1EC</tstamp>
+    </comp>
+    <comp ref="TP39">
+      <value>Testpoint</value>
+      <footprint>pnConnector:TP_1mm</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="pnConnector" part="Testpoint"/>
+      <sheetpath names="/SUPER_UART_front_uC/" tstamps="/5914893E/"/>
+      <tstamp>595CF32C</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MAX3243EIPW</value>
+      <footprint>TSSOP-28_N</footprint>
+      <libsource lib="niceCommunicationIC" part="MAX3243EIPW"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933AA21</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>1u</value>
+      <footprint>0603_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933AA28</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933AA4F</tstamp>
+    </comp>
+    <comp ref="CON3">
+      <value>RS232</value>
+      <footprint>pnConnector:DB9MV</footprint>
+      <libsource lib="conn" part="DB9_MALE"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933AA59</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>hole</value>
+      <footprint>mounting_hole_3.2_7.5_plated</footprint>
+      <libsource lib="niceMechanical" part="mounting_hole_plated"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933AA60</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>hole</value>
+      <footprint>mounting_hole_3.2_7.5_plated</footprint>
+      <libsource lib="niceMechanical" part="mounting_hole_plated"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933AA6D</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>1u</value>
+      <footprint>0603_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933AA96</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>RTS</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933BD57</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>DTR</value>
+      <footprint>pnSwitches:TACTB-64K-F</footprint>
+      <libsource lib="pnSwitches" part="MicroswitchSMT"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933BD5E</tstamp>
+    </comp>
+    <comp ref="LED21">
+      <value>DTR</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933BD66</tstamp>
+    </comp>
+    <comp ref="LED22">
+      <value>RTS</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933BD6D</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933BD7A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933BD8E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933BDC2</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933BDD2</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933BDEF</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>74HC08P</value>
+      <footprint>niceSemiconductors:TSSOP-14_N</footprint>
+      <libsource lib="niceLogic" part="74HC08P"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933BE31</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>74HC08P</value>
+      <footprint>niceSemiconductors:TSSOP-14_N</footprint>
+      <libsource lib="niceLogic" part="74HC08P"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>5933BE38</tstamp>
+    </comp>
+    <comp ref="LED24">
+      <value>CTS</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>59433250</tstamp>
+    </comp>
+    <comp ref="LED23">
+      <value>RI</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>59433257</tstamp>
+    </comp>
+    <comp ref="RN3">
+      <value>R</value>
+      <footprint>niceRLC:4x0603_N</footprint>
+      <libsource lib="pnRC" part="R_network_4"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>59433274</tstamp>
+    </comp>
+    <comp ref="LED26">
+      <value>DCD</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>594332A4</tstamp>
+    </comp>
+    <comp ref="LED25">
+      <value>DSR</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>594332AB</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>1u</value>
+      <footprint>0603_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>59438C23</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1u</value>
+      <footprint>0603_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>59438CE1</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>59488419</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>PDTA143ZT</value>
+      <footprint>niceSemiconductors:SOT23-3_N</footprint>
+      <libsource lib="pnTransistor" part="PDTA143ZT"/>
+      <sheetpath names="/SUPER_UART_front_RS232/" tstamps="/5933A622/"/>
+      <tstamp>59488420</tstamp>
+    </comp>
+    <comp ref="CON4">
+      <value>PORT D</value>
+      <footprint>pnIDC:IDC10</footprint>
+      <libsource lib="nicePinheaders" part="PIN-2x5"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590B97B0</tstamp>
+    </comp>
+    <comp ref="CON5">
+      <value>PORT D</value>
+      <footprint>pnConnector:NIGINI_NCDW-06</footprint>
+      <libsource lib="nicePinheaders" part="PIN-1x6"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590B98C1</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>PESD5V2S2UT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="PESD5V2S2UT"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590C0BD4</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>PESD5V2S2UT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="PESD5V2S2UT"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590C1F45</tstamp>
+    </comp>
+    <comp ref="RN4">
+      <value>R</value>
+      <footprint>niceRLC:4x0603_N</footprint>
+      <libsource lib="pnRC" part="R_network_4"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590CF33D</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590D47CA</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590D47DE</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590D47F2</tstamp>
+    </comp>
+    <comp ref="LED29">
+      <value>DTR</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590DD32B</tstamp>
+    </comp>
+    <comp ref="LED28">
+      <value>RXD</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590DE5C7</tstamp>
+    </comp>
+    <comp ref="LED27">
+      <value>TXD</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590DE6BF</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590EF7B2</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>PESD5V2S2UT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="PESD5V2S2UT"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590EF8DB</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>PESD5V2S2UT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="PESD5V2S2UT"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590F023B</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>PESD5V2S2UT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="PESD5V2S2UT"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590F06C1</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>PESD5V2S2UT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="PESD5V2S2UT"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590F06CE</tstamp>
+    </comp>
+    <comp ref="LED30">
+      <value>RTS</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>590F9714</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5910AC92</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5910AE6E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5910B05D</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59126356</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5912635C</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5912648C</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59137CDF</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>74LVC8T245PW</value>
+      <footprint>TI_TSSOP-24_N</footprint>
+      <libsource lib="niceLogic" part="74LVC8T245PW"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5928D6E9</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5929C7ED</tstamp>
+    </comp>
+    <comp ref="RN5">
+      <value>R</value>
+      <footprint>niceRLC:4x0603_N</footprint>
+      <libsource lib="pnRC" part="R_network_4"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592A1F5C</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592A1F6E</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>74LVC1T45GW</value>
+      <footprint>SC70-6_N</footprint>
+      <libsource lib="niceLogic" part="74LVC1T45GW"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5929249C</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59296BAD</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592F3B1B</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>PDTA143ZT</value>
+      <footprint>niceSemiconductors:SOT23-3_N</footprint>
+      <libsource lib="pnTransistor" part="PDTA143ZT"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592F3B22</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>PDTA143ZT</value>
+      <footprint>niceSemiconductors:SOT23-3_N</footprint>
+      <libsource lib="pnTransistor" part="PDTA143ZT"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592F7C0B</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592F7CC2</tstamp>
+    </comp>
+    <comp ref="CON6">
+      <value>PORT B</value>
+      <footprint>pnConnector:NIGINI_NCDW-06</footprint>
+      <libsource lib="nicePinheaders" part="PIN-1x6"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592F9013</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>PESD5V2S2UT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="PESD5V2S2UT"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592F902A</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>PESD5V2S2UT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="PESD5V2S2UT"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592F9037</tstamp>
+    </comp>
+    <comp ref="LED31">
+      <value>DTR</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592F9044</tstamp>
+    </comp>
+    <comp ref="LED33">
+      <value>RXD</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592F9052</tstamp>
+    </comp>
+    <comp ref="LED34">
+      <value>TXD</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592F9059</tstamp>
+    </comp>
+    <comp ref="LED32">
+      <value>CTS</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>592F9060</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>74LVC8T245PW</value>
+      <footprint>TI_TSSOP-24_N</footprint>
+      <libsource lib="niceLogic" part="74LVC8T245PW"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5928E106</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5931AC1D</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5932B384</tstamp>
+    </comp>
+    <comp ref="RN6">
+      <value>R</value>
+      <footprint>niceRLC:4x0603_N</footprint>
+      <libsource lib="pnRC" part="R_network_4"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5932CE53</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>LP2951CD</value>
+      <footprint>SOIC-8_N</footprint>
+      <libsource lib="nicePowerSupplies" part="LP2951CD"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376B4E</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1k8</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376B55</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>4k7</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376B5E</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>47k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376B78</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376B7F</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>5k6</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376B8C</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>1u</value>
+      <footprint>niceRLC:0603_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376B93</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376BA0</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>10u</value>
+      <footprint>niceRLC:0805_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376BAE</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376BBB</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>10n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376BC8</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>2N7002PS</value>
+      <footprint>niceSemiconductors:SC70-6_N</footprint>
+      <libsource lib="pnTransistor" part="2N7002PS"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376C0E</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>6k8</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376C29</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>3k9</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376C30</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>N-MOS_small</value>
+      <footprint>SOT23-3_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceMosfets" part="N-MOS_small"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376C38</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59376C46</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5941FD3B</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>59439223</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5944B1F4</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5944B2B2</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5944CE1F</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>N-MOS_small</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceMosfets" part="N-MOS_small"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>5948E831</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>N-MOS_small</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceMosfets" part="N-MOS_small"/>
+      <sheetpath names="/SUPER_UART_front_UART1/" tstamps="/59119AE0/"/>
+      <tstamp>594908F8</tstamp>
+    </comp>
+    <comp ref="CON8">
+      <value>PORT C</value>
+      <footprint>pnConnector:NIGINI_NCDW-06</footprint>
+      <libsource lib="nicePinheaders" part="PIN-1x6"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590C2D14</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>PESD5V2S2UT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="PESD5V2S2UT"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590C2D81</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>PESD5V2S2UT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="PESD5V2S2UT"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590C2DBA</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>74LVC2T45DCU</value>
+      <footprint>niceSemiconductors:TI_VSSOP-8_N</footprint>
+      <libsource lib="niceLogic" part="74LVC2T45DCU"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590CF600</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590CCBE4</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590CD5BD</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590CD849</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590D2D6E</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590D481A</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590D482E</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590D4842</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590D4856</tstamp>
+    </comp>
+    <comp ref="LED39">
+      <value>DTR</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590E4616</tstamp>
+    </comp>
+    <comp ref="LED41">
+      <value>RXD</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590E4622</tstamp>
+    </comp>
+    <comp ref="LED42">
+      <value>TXD</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590E4628</tstamp>
+    </comp>
+    <comp ref="LED40">
+      <value>CTS</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590E462E</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>74HC595D</value>
+      <footprint>niceSemiconductors:TSSOP-16_N</footprint>
+      <libsource lib="niceLogic" part="74HC595PW"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>59108E00</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>591187BD</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5911F352</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>74LVC8T245PW</value>
+      <footprint>TI_TSSOP-24_N</footprint>
+      <libsource lib="niceLogic" part="74LVC8T245PW"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>592726A0</tstamp>
+    </comp>
+    <comp ref="CON7">
+      <value>PORT A</value>
+      <footprint>pnConnector:NIGINI_NCDW-06</footprint>
+      <libsource lib="nicePinheaders" part="PIN-1x6"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590C291A</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>PESD5V2S2UT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="PESD5V2S2UT"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590C2987</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>PESD5V2S2UT</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceDiodes" part="PESD5V2S2UT"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590C29C0</tstamp>
+    </comp>
+    <comp ref="LED35">
+      <value>DTR</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590E3FF2</tstamp>
+    </comp>
+    <comp ref="RN8">
+      <value>R</value>
+      <footprint>niceRLC:4x0603_N</footprint>
+      <libsource lib="niceRLC" part="R_Network_4"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590E3FF8</tstamp>
+    </comp>
+    <comp ref="LED37">
+      <value>RXD</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590E3FFE</tstamp>
+    </comp>
+    <comp ref="LED38">
+      <value>TXD</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590E4004</tstamp>
+    </comp>
+    <comp ref="LED36">
+      <value>CTS</value>
+      <footprint>pnSemiconductor:0805D</footprint>
+      <libsource lib="niceDiodes" part="diode_LED"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>590E400A</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>74LVC1T45GW</value>
+      <footprint>SC70-6_N</footprint>
+      <libsource lib="niceLogic" part="74LVC1T45GW"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>593052D5</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>59306B51</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>74LVC1T45GW</value>
+      <footprint>SC70-6_N</footprint>
+      <libsource lib="niceLogic" part="74LVC1T45GW"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>59307749</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>59307752</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>PDTA143ZT</value>
+      <footprint>niceSemiconductors:SOT23-3_N</footprint>
+      <libsource lib="pnTransistor" part="PDTA143ZT"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5930B7F9</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5930B809</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>PDTA143ZT</value>
+      <footprint>niceSemiconductors:SOT23-3_N</footprint>
+      <libsource lib="pnTransistor" part="PDTA143ZT"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5930FDF1</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5930FDFB</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5931BD86</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5931BE99</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5931FBC0</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>R</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5931FCA9</tstamp>
+    </comp>
+    <comp ref="RN9">
+      <value>R</value>
+      <footprint>niceRLC:4x0603_N</footprint>
+      <libsource lib="pnRC" part="R_network_4"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>59329EDD</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>LP2951CD</value>
+      <footprint>SOIC-8_N</footprint>
+      <libsource lib="nicePowerSupplies" part="LP2951CD"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5935D2CF</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>1k8</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5935EBB4</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>4k7</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>593614E3</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>47k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>59364D59</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>59364ED5</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>5k6</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>593664DB</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>1u</value>
+      <footprint>niceRLC:0603_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>593665A5</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>593697BC</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>10u</value>
+      <footprint>niceRLC:0805_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5936E3C8</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5936F349</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>10n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5937036A</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>2N7002PS</value>
+      <footprint>niceSemiconductors:SC70-6_N</footprint>
+      <libsource lib="pnTransistor" part="2N7002PS"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>593521B5</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>6k8</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5935EAF1</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>3k9</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5935E6FF</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>N-MOS_small</value>
+      <footprint>SOT23-3_N</footprint>
+      <fields>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <libsource lib="niceMosfets" part="N-MOS_small"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5935CC3D</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>100n</value>
+      <footprint>0603_N</footprint>
+      <libsource lib="niceRLC" part="C"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>59373B55</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>59420589</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5944BC41</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5944BC4F</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>10k</value>
+      <footprint>0603_R_N</footprint>
+      <libsource lib="niceRLC" part="R_V"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>5944BE46</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>N-MOS_small</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceMosfets" part="N-MOS_small"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>59490ED5</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>N-MOS_small</value>
+      <footprint>SOT23-3_N</footprint>
+      <libsource lib="niceMosfets" part="N-MOS_small"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>59490F5C</tstamp>
+    </comp>
+    <comp ref="RN7">
+      <value>R</value>
+      <footprint>niceRLC:4x0603_N</footprint>
+      <libsource lib="pnRC" part="R_network_4"/>
+      <sheetpath names="/SUPER_UART_front_UART234/" tstamps="/5911B250/"/>
+      <tstamp>59493267</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="pnTransistor" part="2N7002PS">
+      <description>Dual 0.32A 60V 1Ohm almost digital N MOSFET in SC70-6 package</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N7002PS</field>
+        <field name="Footprint">niceSemiconductors:SC70-6_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="D" type="passive"/>
+        <pin num="5" name="S" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceLogic" part="74HC08P">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC08P</field>
+        <field name="Footprint">TSSOP-14_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="in1" type="input"/>
+        <pin num="2" name="in2" type="input"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="in1" type="input"/>
+        <pin num="5" name="in2" type="input"/>
+        <pin num="6" name="OUT" type="output"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="8" name="OUT" type="output"/>
+        <pin num="9" name="in1" type="input"/>
+        <pin num="10" name="in2" type="input"/>
+        <pin num="11" name="OUT" type="output"/>
+        <pin num="12" name="in1" type="input"/>
+        <pin num="13" name="in2" type="input"/>
+        <pin num="14" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceLogic" part="74HC595PW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595PW</field>
+        <field name="Footprint">TSSOP-16_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q1" type="output"/>
+        <pin num="2" name="Q2" type="output"/>
+        <pin num="3" name="Q3" type="output"/>
+        <pin num="4" name="Q4" type="output"/>
+        <pin num="5" name="Q5" type="output"/>
+        <pin num="6" name="Q6" type="output"/>
+        <pin num="7" name="Q7" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Q7S" type="output"/>
+        <pin num="10" name="~MR" type="input"/>
+        <pin num="11" name="SHCP" type="input"/>
+        <pin num="12" name="STCP" type="input"/>
+        <pin num="13" name="~OE" type="input"/>
+        <pin num="14" name="DS" type="input"/>
+        <pin num="15" name="Q0" type="output"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceLogic" part="74LVC1T45GW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1T45GW</field>
+        <field name="Footprint">SC70-6_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="A1" type="BiDi"/>
+        <pin num="4" name="B1" type="BiDi"/>
+        <pin num="5" name="DIR" type="input"/>
+        <pin num="6" name="VCCB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceLogic" part="74LVC2T45DCU">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC2T45DCU</field>
+        <field name="Footprint">TI_VSSOP-8_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="A1" type="BiDi"/>
+        <pin num="3" name="A2" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DIR" type="input"/>
+        <pin num="6" name="B2" type="BiDi"/>
+        <pin num="7" name="B1" type="BiDi"/>
+        <pin num="8" name="VCCB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceLogic" part="74LVC8T245PW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC8T245PW</field>
+        <field name="Footprint">TI_TSSOP-24_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="DIR" type="input"/>
+        <pin num="3" name="A1" type="BiDi"/>
+        <pin num="4" name="A2" type="BiDi"/>
+        <pin num="5" name="A3" type="BiDi"/>
+        <pin num="6" name="A4" type="BiDi"/>
+        <pin num="7" name="A5" type="BiDi"/>
+        <pin num="8" name="A6" type="BiDi"/>
+        <pin num="9" name="A7" type="BiDi"/>
+        <pin num="10" name="A8" type="BiDi"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="B8" type="BiDi"/>
+        <pin num="15" name="B7" type="BiDi"/>
+        <pin num="16" name="B6" type="BiDi"/>
+        <pin num="17" name="B5" type="BiDi"/>
+        <pin num="18" name="B4" type="BiDi"/>
+        <pin num="19" name="B3" type="BiDi"/>
+        <pin num="20" name="B2" type="BiDi"/>
+        <pin num="21" name="B1" type="BiDi"/>
+        <pin num="22" name="~OE" type="input"/>
+        <pin num="23" name="VCCB" type="power_in"/>
+        <pin num="24" name="VCCB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceDiodes" part="BAS70">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAS70</field>
+        <field name="Footprint">SOT23-3_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceRLC" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint">0603_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="DB9_MALE">
+      <description>9-pin male D-SUB connector</description>
+      <footprints>
+        <fp>DB*M*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9_MALE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nicePowerSupplies" part="LP2951CD">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP2951CD</field>
+        <field name="Footprint">SOIC-8_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="power_out"/>
+        <pin num="2" name="Sense" type="passive"/>
+        <pin num="3" name="SHD" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="~ERR" type="openCol"/>
+        <pin num="6" name="Tap" type="passive"/>
+        <pin num="7" name="FB" type="input"/>
+        <pin num="8" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceCommunicationIC" part="MAX3243EIPW">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX3243EIPW</field>
+        <field name="Footprint">TSSOP-28_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C2+" type="passive"/>
+        <pin num="2" name="C2-" type="passive"/>
+        <pin num="3" name="V-" type="passive"/>
+        <pin num="4" name="RIN1" type="input"/>
+        <pin num="5" name="RIN2" type="input"/>
+        <pin num="6" name="RIN3" type="input"/>
+        <pin num="7" name="RIN4" type="input"/>
+        <pin num="8" name="RIN5" type="input"/>
+        <pin num="9" name="DOUT1" type="output"/>
+        <pin num="10" name="DOUT2" type="output"/>
+        <pin num="11" name="DOUT3" type="output"/>
+        <pin num="12" name="DIN3" type="input"/>
+        <pin num="13" name="DIN2" type="input"/>
+        <pin num="14" name="DIN1" type="input"/>
+        <pin num="15" name="ROUT5" type="output"/>
+        <pin num="16" name="ROUT4" type="output"/>
+        <pin num="17" name="ROUT3" type="output"/>
+        <pin num="18" name="ROUT2" type="output"/>
+        <pin num="19" name="ROUT1" type="output"/>
+        <pin num="21" name="~INVALID" type="output"/>
+        <pin num="22" name="~FORCEOFF" type="input"/>
+        <pin num="23" name="FORCEON" type="input"/>
+        <pin num="24" name="C1-" type="passive"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="VCC" type="power_in"/>
+        <pin num="27" name="V+" type="passive"/>
+        <pin num="28" name="C1+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pnPowerManagement" part="MIC5504-3.3YM5-TR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MIC5504-3.3YM5-TR</field>
+        <field name="Footprint">niceSemiconductors:SOT23-5_N</field>
+        <field name="Fieldname">Value</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="pnSwitches" part="MicroswitchSMT">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">MicroswitchSMT</field>
+        <field name="Footprint">pnSwitches:MicroswitchSmd</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceMosfets" part="N-MOS_small">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">N-MOS_small</field>
+        <field name="Footprint">SOT23-3_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pnTransistor" part="PDTA143ZT">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PDTA143ZT</field>
+        <field name="Footprint">pnSemiconductor:sot23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceDiodes" part="PESD5V2S2UT">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD5V2S2UT</field>
+        <field name="Footprint">SOT23-3_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C1" type="passive"/>
+        <pin num="2" name="C2" type="passive"/>
+        <pin num="3" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nicePinheaders" part="PIN-1x6">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">PIN-1x6</field>
+        <field name="Footprint">PIN-1x6_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nicePinheaders" part="PIN-2x12">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">PIN-2x12</field>
+        <field name="Footprint">PIN-2x12_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nicePinheaders" part="PIN-2x2">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">PIN-2x2</field>
+        <field name="Footprint">PIN-2x2_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nicePinheaders" part="PIN-2x3">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">PIN-2x3</field>
+        <field name="Footprint">PIN-2x3_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nicePinheaders" part="PIN-2x4">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">PIN-2x4</field>
+        <field name="Footprint">PIN-2x4_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="nicePinheaders" part="PIN-2x5">
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">PIN-2x5</field>
+        <field name="Footprint">PIN-2x5_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceRLC" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint">0603_R_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceRLC" part="R_Network_4">
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Network_4</field>
+        <field name="Footprint">4x0603_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="1" type="passive"/>
+        <pin num="4" name="1" type="passive"/>
+        <pin num="5" name="2" type="passive"/>
+        <pin num="6" name="2" type="passive"/>
+        <pin num="7" name="2" type="passive"/>
+        <pin num="8" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceRLC" part="R_V">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_V</field>
+        <field name="Footprint">0603_R_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pnRC" part="R_network_4">
+      <description>Resistance</description>
+      <footprints>
+        <fp>4x0603*</fp>
+        <fp>4x0402*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_network_4</field>
+        <field name="Footprint">pnRLC:4x0603_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceSTM32" part="STM32F030R8T6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F030R8T6</field>
+        <field name="Footprint">QFP-64-0.5_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14-OSC32_IN" type="BiDi"/>
+        <pin num="4" name="PC15-OSC32_OUT" type="BiDi"/>
+        <pin num="5" name="PF0-OSC_IN" type="BiDi"/>
+        <pin num="6" name="PF1-OSC_OUT" type="BiDi"/>
+        <pin num="7" name="NRST" type="BiDi"/>
+        <pin num="8" name="PC0" type="BiDi"/>
+        <pin num="9" name="PC1" type="BiDi"/>
+        <pin num="10" name="PC2" type="BiDi"/>
+        <pin num="11" name="PC3" type="BiDi"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0" type="BiDi"/>
+        <pin num="15" name="PA1" type="BiDi"/>
+        <pin num="16" name="PA2" type="BiDi"/>
+        <pin num="17" name="PA3" type="BiDi"/>
+        <pin num="18" name="PF4" type="BiDi"/>
+        <pin num="19" name="PF5" type="BiDi"/>
+        <pin num="20" name="PA4" type="BiDi"/>
+        <pin num="21" name="PA5" type="BiDi"/>
+        <pin num="22" name="PA6" type="BiDi"/>
+        <pin num="23" name="PA7" type="BiDi"/>
+        <pin num="24" name="PC4" type="BiDi"/>
+        <pin num="25" name="PC5" type="BiDi"/>
+        <pin num="26" name="PB0" type="BiDi"/>
+        <pin num="27" name="PB1" type="BiDi"/>
+        <pin num="28" name="PB2" type="BiDi"/>
+        <pin num="29" name="PB10" type="BiDi"/>
+        <pin num="30" name="PB11" type="BiDi"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="BiDi"/>
+        <pin num="34" name="PB13" type="BiDi"/>
+        <pin num="35" name="PB14" type="BiDi"/>
+        <pin num="36" name="PB15" type="BiDi"/>
+        <pin num="37" name="PC6" type="BiDi"/>
+        <pin num="38" name="PC7" type="BiDi"/>
+        <pin num="39" name="PC8" type="BiDi"/>
+        <pin num="40" name="PC9" type="BiDi"/>
+        <pin num="41" name="PA8" type="BiDi"/>
+        <pin num="42" name="PA9" type="BiDi"/>
+        <pin num="43" name="PA10" type="BiDi"/>
+        <pin num="44" name="PA11" type="BiDi"/>
+        <pin num="45" name="PA12" type="BiDi"/>
+        <pin num="46" name="PA13/TMS" type="BiDi"/>
+        <pin num="47" name="PF6" type="BiDi"/>
+        <pin num="48" name="PF7" type="BiDi"/>
+        <pin num="49" name="PA14/TCK" type="BiDi"/>
+        <pin num="50" name="PA15" type="BiDi"/>
+        <pin num="51" name="PC10" type="BiDi"/>
+        <pin num="52" name="PC11" type="BiDi"/>
+        <pin num="53" name="PC12" type="BiDi"/>
+        <pin num="54" name="PD2" type="BiDi"/>
+        <pin num="55" name="PB3/SWO" type="BiDi"/>
+        <pin num="56" name="PB4" type="BiDi"/>
+        <pin num="57" name="PB5" type="BiDi"/>
+        <pin num="58" name="PB6" type="BiDi"/>
+        <pin num="59" name="PB7" type="BiDi"/>
+        <pin num="60" name="BOOT0" type="input"/>
+        <pin num="61" name="PB8" type="BiDi"/>
+        <pin num="62" name="PB9" type="BiDi"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="pnConnector" part="Testpoint">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">Testpoint</field>
+        <field name="Footprint">pnConnector:TP_1mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceDiodes" part="diode_LED">
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">diode_LED</field>
+        <field name="Footprint">SMA_R_N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="niceMechanical" part="dummy_mech">
+      <fields>
+        <field name="Reference">MECH</field>
+        <field name="Value">dummy_mech</field>
+        <field name="Footprint">dummy</field>
+      </fields>
+    </libpart>
+    <libpart lib="niceMechanical" part="mounting_hole_plated">
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">mounting_hole_plated</field>
+        <field name="Footprint">mounting_hole_3.2_7.5_plated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="niceCommunicationIC">
+      <uri>D:\test\kicadLib\niceCommunicationIC.lib</uri>
+    </library>
+    <library logical="niceDiodes">
+      <uri>D:\test\kicadLib\niceDiodes.lib</uri>
+    </library>
+    <library logical="niceLogic">
+      <uri>D:\test\kicadLib\niceLogic.lib</uri>
+    </library>
+    <library logical="niceMechanical">
+      <uri>D:\test\kicadLib\niceMechanical.lib</uri>
+    </library>
+    <library logical="niceMosfets">
+      <uri>D:\test\kicadLib\niceMosfets.lib</uri>
+    </library>
+    <library logical="nicePinheaders">
+      <uri>D:\test\kicadLib\nicePinheaders.lib</uri>
+    </library>
+    <library logical="nicePowerSupplies">
+      <uri>D:\test\kicadLib\nicePowerSupplies.lib</uri>
+    </library>
+    <library logical="niceRLC">
+      <uri>D:\test\kicadLib\niceRLC.lib</uri>
+    </library>
+    <library logical="niceSTM32">
+      <uri>D:\test\kicadLib\niceSTM32.lib</uri>
+    </library>
+    <library logical="pnConnector">
+      <uri>D:\Lib\kicad\pnConnector.lib</uri>
+    </library>
+    <library logical="pnPowerManagement">
+      <uri>D:\Lib\kicad\pnPowerManagement.lib</uri>
+    </library>
+    <library logical="pnRC">
+      <uri>D:\Lib\kicad\pnRC.lib</uri>
+    </library>
+    <library logical="pnSwitches">
+      <uri>D:\Lib\kicad\pnSwitches.lib</uri>
+    </library>
+    <library logical="pnTransistor">
+      <uri>D:\Lib\kicad\pnTransistor.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/~USB_SUSPEND">
+      <node ref="CON11" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="TP32" pin="1"/>
+      <node ref="CON9" pin="1"/>
+      <node ref="CON9" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U10" pin="8"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R38" pin="2"/>
+      <node ref="C42" pin="1"/>
+      <node ref="U16" pin="8"/>
+      <node ref="C26" pin="1"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="3" name="/SUPER_UART_front_UART234/~VDD2_ERR">
+      <node ref="TP8" pin="1"/>
+      <node ref="U1" pin="59"/>
+      <node ref="R37" pin="1"/>
+      <node ref="U16" pin="5"/>
+    </net>
+    <net code="4" name="/SUPER_UART_front_UART1/~VDD1_ERR">
+      <node ref="TP3" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="5" name="/CPLD_BOOT_EN">
+      <node ref="CON11" pin="10"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="6" name="/SR_LOAD">
+      <node ref="U1" pin="33"/>
+      <node ref="CON11" pin="1"/>
+    </net>
+    <net code="7" name="/CLPD_OE">
+      <node ref="CON10" pin="8"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="8" name="/SR_CLK">
+      <node ref="CON11" pin="6"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="9" name="/SR_DATA">
+      <node ref="U1" pin="36"/>
+      <node ref="CON11" pin="5"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="C21" pin="2"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="CON5" pin="6"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="R45" pin="1"/>
+      <node ref="Q10" pin="5"/>
+      <node ref="Q13" pin="2"/>
+      <node ref="Q14" pin="2"/>
+      <node ref="R35" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="U7" pin="13"/>
+      <node ref="U7" pin="12"/>
+      <node ref="U7" pin="11"/>
+      <node ref="U7" pin="10"/>
+      <node ref="U7" pin="9"/>
+      <node ref="C24" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="R26" pin="1"/>
+      <node ref="U10" pin="4"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="LED27" pin="1"/>
+      <node ref="LED28" pin="1"/>
+      <node ref="D5" pin="3"/>
+      <node ref="D4" pin="3"/>
+      <node ref="D3" pin="3"/>
+      <node ref="R15" pin="1"/>
+      <node ref="D2" pin="3"/>
+      <node ref="D7" pin="3"/>
+      <node ref="D6" pin="3"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="CON2" pin="5"/>
+      <node ref="SW17" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="U1" pin="63"/>
+      <node ref="U1" pin="31"/>
+      <node ref="U1" pin="12"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="MH2" pin="1"/>
+      <node ref="CON3" pin="5"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U5" pin="25"/>
+      <node ref="MH1" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="SW18" pin="2"/>
+      <node ref="SW19" pin="2"/>
+      <node ref="U6" pin="7"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R48" pin="1"/>
+      <node ref="LED42" pin="1"/>
+      <node ref="U11" pin="8"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="LED41" pin="1"/>
+      <node ref="U12" pin="8"/>
+      <node ref="U12" pin="9"/>
+      <node ref="U12" pin="10"/>
+      <node ref="C33" pin="2"/>
+      <node ref="D13" pin="3"/>
+      <node ref="U15" pin="5"/>
+      <node ref="C48" pin="2"/>
+      <node ref="U16" pin="4"/>
+      <node ref="D11" pin="3"/>
+      <node ref="D10" pin="3"/>
+      <node ref="LED37" pin="1"/>
+      <node ref="LED38" pin="1"/>
+      <node ref="U12" pin="12"/>
+      <node ref="U12" pin="13"/>
+      <node ref="CON7" pin="6"/>
+      <node ref="U14" pin="2"/>
+      <node ref="U15" pin="2"/>
+      <node ref="U13" pin="5"/>
+      <node ref="CON8" pin="6"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="D12" pin="3"/>
+      <node ref="U13" pin="4"/>
+      <node ref="U12" pin="11"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="LED33" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="LED34" pin="1"/>
+      <node ref="CON11" pin="23"/>
+      <node ref="C26" pin="2"/>
+      <node ref="TP30" pin="1"/>
+      <node ref="U8" pin="22"/>
+      <node ref="CON4" pin="10"/>
+      <node ref="CON1" pin="1"/>
+      <node ref="CON1" pin="2"/>
+      <node ref="U8" pin="15"/>
+      <node ref="U8" pin="14"/>
+      <node ref="U8" pin="13"/>
+      <node ref="U8" pin="12"/>
+      <node ref="U8" pin="2"/>
+      <node ref="U8" pin="11"/>
+      <node ref="CON11" pin="24"/>
+      <node ref="C1" pin="2"/>
+      <node ref="Q5" pin="5"/>
+      <node ref="CON9" pin="4"/>
+      <node ref="TP33" pin="1"/>
+      <node ref="D9" pin="3"/>
+      <node ref="CON6" pin="6"/>
+      <node ref="CON9" pin="3"/>
+      <node ref="D8" pin="3"/>
+    </net>
+    <net code="11" name="/FTDI_RESET">
+      <node ref="CON10" pin="10"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="12" name="/~RXD_A_OC">
+      <node ref="CON10" pin="3"/>
+      <node ref="Q14" pin="1"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="13" name="/~CTS_A_OC">
+      <node ref="R34" pin="2"/>
+      <node ref="Q13" pin="1"/>
+      <node ref="CON1" pin="3"/>
+    </net>
+    <net code="14" name="/RI_D">
+      <node ref="CON11" pin="11"/>
+      <node ref="U6" pin="11"/>
+      <node ref="RN3" pin="8"/>
+    </net>
+    <net code="15" name="/CTS_D">
+      <node ref="U4" pin="11"/>
+      <node ref="RN3" pin="7"/>
+      <node ref="CON11" pin="14"/>
+    </net>
+    <net code="16" name="/DSR_D">
+      <node ref="RN3" pin="6"/>
+      <node ref="U6" pin="8"/>
+      <node ref="CON11" pin="12"/>
+    </net>
+    <net code="17" name="/DCD_D">
+      <node ref="RN3" pin="5"/>
+      <node ref="CON11" pin="13"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="18" name="/DTR_D">
+      <node ref="CON11" pin="15"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="19" name="/RTS_D">
+      <node ref="U4" pin="1"/>
+      <node ref="CON11" pin="16"/>
+    </net>
+    <net code="20" name="/RXD_D">
+      <node ref="CON11" pin="17"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="21" name="/SUPER_UART_front_UART1/RXD_B_LED">
+      <node ref="U11" pin="3"/>
+      <node ref="RN6" pin="6"/>
+    </net>
+    <net code="22" name="/SUPER_UART_front_UART1/TXD_B_LED">
+      <node ref="RN6" pin="7"/>
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="23" name="/SUPER_UART_front_UART1/RXD_D_LED">
+      <node ref="U11" pin="7"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="24" name="/SUPER_UART_front_UART1/TXD_D_LED">
+      <node ref="R8" pin="1"/>
+      <node ref="U11" pin="6"/>
+    </net>
+    <net code="25" name="/CTS_C">
+      <node ref="CON10" pin="5"/>
+      <node ref="RN9" pin="8"/>
+      <node ref="U13" pin="3"/>
+    </net>
+    <net code="26" name="/DTR_C">
+      <node ref="CON1" pin="7"/>
+      <node ref="U12" pin="6"/>
+      <node ref="RN9" pin="5"/>
+    </net>
+    <net code="27" name="/TXD_C">
+      <node ref="CON1" pin="5"/>
+      <node ref="U12" pin="5"/>
+    </net>
+    <net code="28" name="/AUX2">
+      <node ref="U1" pin="37"/>
+      <node ref="CON10" pin="2"/>
+    </net>
+    <net code="29" name="VDD2">
+      <node ref="C38" pin="1"/>
+      <node ref="U14" pin="6"/>
+      <node ref="CON8" pin="4"/>
+      <node ref="U12" pin="23"/>
+      <node ref="U12" pin="24"/>
+      <node ref="TP35" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="U13" pin="8"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="U16" pin="1"/>
+      <node ref="R40" pin="2"/>
+      <node ref="C43" pin="1"/>
+      <node ref="Q7" pin="2"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="U15" pin="6"/>
+      <node ref="CON7" pin="4"/>
+      <node ref="C46" pin="1"/>
+      <node ref="C44" pin="1"/>
+    </net>
+    <net code="30" name="+3V3">
+      <node ref="U1" pin="32"/>
+      <node ref="LED32" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="RN2" pin="5"/>
+      <node ref="U1" pin="64"/>
+      <node ref="LED36" pin="2"/>
+      <node ref="U5" pin="23"/>
+      <node ref="C4" pin="1"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="LED39" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C45" pin="1"/>
+      <node ref="U12" pin="1"/>
+      <node ref="U1" pin="13"/>
+      <node ref="CON2" pin="1"/>
+      <node ref="U11" pin="10"/>
+      <node ref="U1" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U11" pin="16"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="RN2" pin="7"/>
+      <node ref="RN2" pin="6"/>
+      <node ref="U8" pin="1"/>
+      <node ref="RN2" pin="8"/>
+      <node ref="U12" pin="2"/>
+      <node ref="U5" pin="26"/>
+      <node ref="LED40" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="LED25" pin="2"/>
+      <node ref="LED26" pin="2"/>
+      <node ref="C37" pin="1"/>
+      <node ref="LED29" pin="2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U13" pin="1"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="U14" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="LED35" pin="2"/>
+      <node ref="TP31" pin="1"/>
+      <node ref="U7" pin="2"/>
+      <node ref="U7" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="LED24" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U4" pin="14"/>
+      <node ref="LED23" pin="2"/>
+      <node ref="U6" pin="14"/>
+      <node ref="C5" pin="1"/>
+      <node ref="LED31" pin="2"/>
+      <node ref="U15" pin="1"/>
+      <node ref="LED30" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C35" pin="1"/>
+    </net>
+    <net code="31" name="/AUX1">
+      <node ref="U1" pin="29"/>
+      <node ref="CON10" pin="1"/>
+    </net>
+    <net code="32" name="/AUX3">
+      <node ref="U1" pin="30"/>
+      <node ref="CON10" pin="4"/>
+    </net>
+    <net code="33" name="VDD1">
+      <node ref="C25" pin="1"/>
+      <node ref="CON4" pin="9"/>
+      <node ref="CON5" pin="4"/>
+      <node ref="U9" pin="6"/>
+      <node ref="U8" pin="23"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U7" pin="24"/>
+      <node ref="U7" pin="23"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="CON6" pin="4"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="TP34" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="U8" pin="24"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="34" name="/~PWREN">
+      <node ref="U1" pin="2"/>
+      <node ref="U11" pin="13"/>
+      <node ref="R29" pin="1"/>
+      <node ref="CON11" pin="18"/>
+    </net>
+    <net code="35" name="/EECS">
+      <node ref="U11" pin="12"/>
+      <node ref="CON11" pin="22"/>
+    </net>
+    <net code="36" name="/EECLK">
+      <node ref="CON11" pin="21"/>
+      <node ref="U11" pin="11"/>
+    </net>
+    <net code="37" name="/EEDATA">
+      <node ref="CON11" pin="20"/>
+      <node ref="U11" pin="14"/>
+    </net>
+    <net code="38" name="/TXD_A">
+      <node ref="CON1" pin="8"/>
+      <node ref="U12" pin="4"/>
+    </net>
+    <net code="39" name="/~RXD_B_OC">
+      <node ref="Q3" pin="1"/>
+      <node ref="CON11" pin="3"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="40" name="/~CTS_B_OC">
+      <node ref="Q8" pin="1"/>
+      <node ref="CON11" pin="7"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="41" name="/RXD_B">
+      <node ref="U8" pin="8"/>
+      <node ref="CON11" pin="4"/>
+    </net>
+    <net code="42" name="/RXD_A">
+      <node ref="CON1" pin="4"/>
+      <node ref="U15" pin="3"/>
+    </net>
+    <net code="43" name="/RXD_C">
+      <node ref="CON10" pin="7"/>
+      <node ref="U13" pin="2"/>
+    </net>
+    <net code="44" name="/CTS_A">
+      <node ref="RN8" pin="1"/>
+      <node ref="U14" pin="3"/>
+      <node ref="CON1" pin="6"/>
+    </net>
+    <net code="45" name="/DTR_A">
+      <node ref="RN8" pin="4"/>
+      <node ref="U12" pin="3"/>
+      <node ref="CON10" pin="9"/>
+    </net>
+    <net code="46" name="/SUPER_UART_front_UART234/~VDD2_EN">
+      <node ref="U16" pin="3"/>
+      <node ref="U12" pin="22"/>
+      <node ref="R38" pin="1"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="U1" pin="58"/>
+    </net>
+    <net code="47" name="/SUPER_UART_front_UART234/VDD2_SEL3">
+      <node ref="Q10" pin="1"/>
+      <node ref="U1" pin="53"/>
+      <node ref="TP12" pin="1"/>
+    </net>
+    <net code="48" name="/SUPER_UART_front_UART234/VDD2_SEL2">
+      <node ref="TP11" pin="1"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="U1" pin="55"/>
+    </net>
+    <net code="49" name="/SUPER_UART_front_UART234/VDD2_SEL1">
+      <node ref="U1" pin="56"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="Q11" pin="1"/>
+      <node ref="R46" pin="1"/>
+    </net>
+    <net code="50" name="/SUPER_UART_front_RS232/~VDD1_EN">
+      <node ref="R19" pin="1"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U1" pin="14"/>
+      <node ref="Q12" pin="1"/>
+      <node ref="U7" pin="22"/>
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="51" name="/SUPER_UART_front_UART1/VDD1_SEL3">
+      <node ref="Q5" pin="1"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="U1" pin="48"/>
+    </net>
+    <net code="52" name="/SUPER_UART_front_UART1/VDD1_SEL2">
+      <node ref="TP6" pin="1"/>
+      <node ref="U1" pin="47"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="53" name="/SUPER_UART_front_UART1/VDD1_SEL1">
+      <node ref="R27" pin="1"/>
+      <node ref="U1" pin="44"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="TP5" pin="1"/>
+    </net>
+    <net code="54" name="/SUPER_UART_front_UART234/SPI_EN_A">
+      <node ref="U1" pin="57"/>
+      <node ref="R35" pin="2"/>
+      <node ref="TP29" pin="1"/>
+      <node ref="U14" pin="5"/>
+    </net>
+    <net code="55" name="/SUPER_UART_front_UART234/I2C_PU_EN_A">
+      <node ref="TP28" pin="1"/>
+      <node ref="U1" pin="40"/>
+      <node ref="U12" pin="7"/>
+    </net>
+    <net code="56" name="/SUPER_UART_front_UART1/SPI_EN_B">
+      <node ref="R22" pin="2"/>
+      <node ref="U9" pin="5"/>
+      <node ref="TP27" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="57" name="/SUPER_UART_front_RS232/CTS_D1">
+      <node ref="U4" pin="13"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="58" name="/SUPER_UART_front_UART1/I2C_PU_EN_B">
+      <node ref="U1" pin="5"/>
+      <node ref="U7" pin="8"/>
+      <node ref="TP26" pin="1"/>
+    </net>
+    <net code="59" name="/DTR_B">
+      <node ref="CON10" pin="6"/>
+      <node ref="U7" pin="7"/>
+      <node ref="RN6" pin="5"/>
+    </net>
+    <net code="60" name="/TXD_B">
+      <node ref="U7" pin="6"/>
+      <node ref="CON11" pin="8"/>
+    </net>
+    <net code="61" name="/SUPER_UART_front_RS232/RXD_D3">
+      <node ref="U1" pin="42"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="62" name="/SUPER_UART_front_RS232/RI_D1">
+      <node ref="U8" pin="7"/>
+      <node ref="U6" pin="12"/>
+    </net>
+    <net code="63" name="/SUPER_UART_front_RS232/RXD_D1">
+      <node ref="U8" pin="3"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="64" name="/SUPER_UART_front_RS232/DCD_D1">
+      <node ref="U4" pin="9"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="65" name="/SUPER_UART_front_RS232/DSR_D1">
+      <node ref="U6" pin="9"/>
+      <node ref="U8" pin="5"/>
+    </net>
+    <net code="66" name="/SUPER_UART_front_RS232/DTR_D1">
+      <node ref="U5" pin="12"/>
+      <node ref="U4" pin="6"/>
+      <node ref="U7" pin="4"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="67" name="/SUPER_UART_front_RS232/RTS_D1">
+      <node ref="U7" pin="5"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="68" name="/CTS_B">
+      <node ref="RN6" pin="8"/>
+      <node ref="CON11" pin="9"/>
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="69" name="/TXD_D">
+      <node ref="U5" pin="13"/>
+      <node ref="U7" pin="3"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="CON11" pin="19"/>
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="70" name="/SUPER_UART_front_UART1/TXD_B_VDD1">
+      <node ref="D8" pin="2"/>
+      <node ref="CON6" pin="3"/>
+      <node ref="RN4" pin="1"/>
+    </net>
+    <net code="71" name="/SUPER_UART_front_UART1/RXD_B_VDD1">
+      <node ref="D9" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="CON6" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="72" name="Net-(LED31-Pad1)">
+      <node ref="RN6" pin="4"/>
+      <node ref="LED31" pin="1"/>
+    </net>
+    <net code="73" name="Net-(LED33-Pad2)">
+      <node ref="RN6" pin="2"/>
+      <node ref="LED33" pin="2"/>
+    </net>
+    <net code="74" name="Net-(LED34-Pad2)">
+      <node ref="LED34" pin="2"/>
+      <node ref="RN6" pin="3"/>
+    </net>
+    <net code="75" name="Net-(LED32-Pad1)">
+      <node ref="RN6" pin="1"/>
+      <node ref="LED32" pin="1"/>
+    </net>
+    <net code="76" name="/SUPER_UART_front_UART1/DCD_D_VDD1">
+      <node ref="RN5" pin="1"/>
+      <node ref="CON4" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="77" name="Net-(RN5-Pad7)">
+      <node ref="RN5" pin="7"/>
+      <node ref="U8" pin="19"/>
+    </net>
+    <net code="78" name="Net-(RN5-Pad5)">
+      <node ref="RN5" pin="5"/>
+      <node ref="U8" pin="21"/>
+    </net>
+    <net code="79" name="Net-(U8-Pad9)">
+      <node ref="U8" pin="9"/>
+    </net>
+    <net code="80" name="Net-(U8-Pad10)">
+      <node ref="U8" pin="10"/>
+    </net>
+    <net code="81" name="Net-(RN5-Pad6)">
+      <node ref="RN5" pin="6"/>
+      <node ref="U8" pin="20"/>
+    </net>
+    <net code="82" name="Net-(R12-Pad2)">
+      <node ref="U8" pin="16"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="83" name="Net-(R11-Pad2)">
+      <node ref="U8" pin="17"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="84" name="Net-(RN5-Pad8)">
+      <node ref="U8" pin="18"/>
+      <node ref="RN5" pin="8"/>
+    </net>
+    <net code="85" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="86" name="/SUPER_UART_front_UART1/I2C_PU_EN_B_VCCA">
+      <node ref="Q4" pin="1"/>
+      <node ref="U7" pin="16"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="87" name="Net-(Q4-Pad3)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="88" name="Net-(Q5-Pad4)">
+      <node ref="Q5" pin="4"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="89" name="Net-(Q5-Pad6)">
+      <node ref="Q5" pin="6"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="90" name="Net-(U7-Pad15)">
+      <node ref="U7" pin="15"/>
+    </net>
+    <net code="91" name="Net-(U7-Pad14)">
+      <node ref="U7" pin="14"/>
+    </net>
+    <net code="92" name="Net-(C31-Pad1)">
+      <node ref="R27" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="93" name="Net-(U10-Pad2)">
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="94" name="Net-(U10-Pad6)">
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="95" name="Net-(C27-Pad2)">
+      <node ref="R26" pin="2"/>
+      <node ref="R23" pin="2"/>
+      <node ref="R20" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U10" pin="7"/>
+    </net>
+    <net code="96" name="Net-(RN4-Pad8)">
+      <node ref="RN4" pin="8"/>
+      <node ref="U7" pin="18"/>
+    </net>
+    <net code="97" name="Net-(RN4-Pad6)">
+      <node ref="RN4" pin="6"/>
+      <node ref="U7" pin="20"/>
+    </net>
+    <net code="98" name="/SUPER_UART_front_UART1/DSR_D_VDD1">
+      <node ref="CON4" pin="1"/>
+      <node ref="RN5" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="99" name="Net-(LED29-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="LED29" pin="1"/>
+    </net>
+    <net code="100" name="Net-(LED30-Pad1)">
+      <node ref="LED30" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="101" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="102" name="/SUPER_UART_front_UART1/RI_D_VDD1">
+      <node ref="D3" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="CON4" pin="7"/>
+    </net>
+    <net code="103" name="Net-(RN4-Pad5)">
+      <node ref="RN4" pin="5"/>
+      <node ref="U7" pin="21"/>
+    </net>
+    <net code="104" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U7" pin="17"/>
+    </net>
+    <net code="105" name="Net-(RN4-Pad7)">
+      <node ref="RN4" pin="7"/>
+      <node ref="U7" pin="19"/>
+    </net>
+    <net code="106" name="/SUPER_UART_front_UART1/RTS_D_VDD1">
+      <node ref="D2" pin="2"/>
+      <node ref="RN4" pin="2"/>
+      <node ref="CON4" pin="3"/>
+    </net>
+    <net code="107" name="Net-(LED27-Pad2)">
+      <node ref="LED27" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="108" name="Net-(LED28-Pad2)">
+      <node ref="LED28" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="109" name="/SUPER_UART_front_UART1/RXD_D_VDD1">
+      <node ref="CON5" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="CON4" pin="4"/>
+      <node ref="RN5" pin="4"/>
+    </net>
+    <net code="110" name="/SUPER_UART_front_UART1/TXD_D_VDD1">
+      <node ref="CON4" pin="6"/>
+      <node ref="CON5" pin="3"/>
+      <node ref="D6" pin="2"/>
+      <node ref="RN4" pin="4"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="111" name="/SUPER_UART_front_UART1/DTR_D_VDD1">
+      <node ref="D7" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="RN4" pin="3"/>
+      <node ref="CON4" pin="8"/>
+      <node ref="CON5" pin="1"/>
+    </net>
+    <net code="112" name="/SUPER_UART_front_UART1/CTS_D_VDD1">
+      <node ref="RN5" pin="3"/>
+      <node ref="CON4" pin="5"/>
+      <node ref="D3" pin="1"/>
+      <node ref="CON5" pin="5"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="113" name="/SUPER_UART_front_UART1/CTS_B_VDD1">
+      <node ref="Q8" pin="3"/>
+      <node ref="R16" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="CON6" pin="5"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="114" name="/SUPER_UART_front_UART1/DTR_B_VDD1">
+      <node ref="CON6" pin="1"/>
+      <node ref="D9" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="115" name="Net-(C32-Pad1)">
+      <node ref="R23" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="R28" pin="2"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="116" name="Net-(LED40-Pad1)">
+      <node ref="RN9" pin="1"/>
+      <node ref="LED40" pin="1"/>
+    </net>
+    <net code="117" name="Net-(LED39-Pad1)">
+      <node ref="LED39" pin="1"/>
+      <node ref="RN9" pin="4"/>
+    </net>
+    <net code="118" name="Net-(LED36-Pad1)">
+      <node ref="RN8" pin="8"/>
+      <node ref="LED36" pin="1"/>
+    </net>
+    <net code="119" name="Net-(LED37-Pad2)">
+      <node ref="LED37" pin="2"/>
+      <node ref="RN8" pin="6"/>
+    </net>
+    <net code="120" name="/SUPER_UART_front_UART234/CTS_C_VDD2">
+      <node ref="D13" pin="2"/>
+      <node ref="CON8" pin="5"/>
+      <node ref="R31" pin="2"/>
+    </net>
+    <net code="121" name="Net-(LED38-Pad2)">
+      <node ref="RN8" pin="7"/>
+      <node ref="LED38" pin="2"/>
+    </net>
+    <net code="122" name="Net-(LED35-Pad1)">
+      <node ref="LED35" pin="1"/>
+      <node ref="RN8" pin="5"/>
+    </net>
+    <net code="123" name="/SUPER_UART_front_UART234/DTR_C_VDD2">
+      <node ref="D12" pin="1"/>
+      <node ref="RN7" pin="1"/>
+      <node ref="CON8" pin="1"/>
+    </net>
+    <net code="124" name="/SUPER_UART_front_UART234/TXD_C_VDD2">
+      <node ref="RN7" pin="2"/>
+      <node ref="D13" pin="1"/>
+      <node ref="CON8" pin="3"/>
+    </net>
+    <net code="125" name="/SUPER_UART_front_UART234/RXD_A_LED">
+      <node ref="RN8" pin="2"/>
+      <node ref="U11" pin="1"/>
+    </net>
+    <net code="126" name="/SUPER_UART_front_UART234/TXD_A_LED">
+      <node ref="U11" pin="15"/>
+      <node ref="RN8" pin="3"/>
+    </net>
+    <net code="127" name="/SUPER_UART_front_UART234/RXD_C_LED">
+      <node ref="U11" pin="5"/>
+      <node ref="RN9" pin="7"/>
+    </net>
+    <net code="128" name="/SUPER_UART_front_UART234/TXD_C_LED">
+      <node ref="RN9" pin="6"/>
+      <node ref="U11" pin="4"/>
+    </net>
+    <net code="129" name="Net-(LED42-Pad2)">
+      <node ref="RN9" pin="2"/>
+      <node ref="LED42" pin="2"/>
+    </net>
+    <net code="130" name="Net-(LED41-Pad2)">
+      <node ref="LED41" pin="2"/>
+      <node ref="RN9" pin="3"/>
+    </net>
+    <net code="131" name="Net-(Q10-Pad4)">
+      <node ref="Q10" pin="4"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="132" name="Net-(C43-Pad2)">
+      <node ref="R40" pin="1"/>
+      <node ref="R42" pin="2"/>
+      <node ref="U16" pin="7"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R43" pin="2"/>
+      <node ref="R45" pin="2"/>
+      <node ref="C43" pin="2"/>
+    </net>
+    <net code="133" name="Net-(Q10-Pad6)">
+      <node ref="R44" pin="1"/>
+      <node ref="Q10" pin="6"/>
+    </net>
+    <net code="134" name="/SUPER_UART_front_UART234/DTR_A_VDD2">
+      <node ref="CON7" pin="1"/>
+      <node ref="D10" pin="2"/>
+      <node ref="RN7" pin="4"/>
+    </net>
+    <net code="135" name="Net-(U12-Pad16)">
+      <node ref="U12" pin="16"/>
+    </net>
+    <net code="136" name="/SUPER_UART_front_UART234/RXD_A_VDD2">
+      <node ref="CON7" pin="2"/>
+      <node ref="D10" pin="1"/>
+      <node ref="Q14" pin="3"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="137" name="Net-(U12-Pad15)">
+      <node ref="U12" pin="15"/>
+    </net>
+    <net code="138" name="Net-(RN7-Pad5)">
+      <node ref="RN7" pin="5"/>
+      <node ref="U12" pin="21"/>
+    </net>
+    <net code="139" name="/SUPER_UART_front_UART234/TXD_A_VDD2">
+      <node ref="D11" pin="2"/>
+      <node ref="CON7" pin="3"/>
+      <node ref="RN7" pin="3"/>
+    </net>
+    <net code="140" name="Net-(RN7-Pad6)">
+      <node ref="U12" pin="20"/>
+      <node ref="RN7" pin="6"/>
+    </net>
+    <net code="141" name="Net-(RN7-Pad7)">
+      <node ref="U12" pin="19"/>
+      <node ref="RN7" pin="7"/>
+    </net>
+    <net code="142" name="Net-(RN7-Pad8)">
+      <node ref="U12" pin="18"/>
+      <node ref="RN7" pin="8"/>
+    </net>
+    <net code="143" name="Net-(U12-Pad14)">
+      <node ref="U12" pin="14"/>
+    </net>
+    <net code="144" name="Net-(C48-Pad1)">
+      <node ref="R42" pin="1"/>
+      <node ref="R47" pin="2"/>
+      <node ref="C48" pin="1"/>
+      <node ref="Q11" pin="3"/>
+    </net>
+    <net code="145" name="Net-(C47-Pad1)">
+      <node ref="R46" pin="2"/>
+      <node ref="C47" pin="1"/>
+      <node ref="R47" pin="1"/>
+    </net>
+    <net code="146" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1"/>
+      <node ref="U13" pin="6"/>
+    </net>
+    <net code="147" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1"/>
+      <node ref="U13" pin="7"/>
+    </net>
+    <net code="148" name="/SUPER_UART_front_UART234/I2C_PU_EN_A_VCCB">
+      <node ref="U12" pin="17"/>
+      <node ref="Q9" pin="1"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="149" name="Net-(Q9-Pad3)">
+      <node ref="R36" pin="2"/>
+      <node ref="Q9" pin="3"/>
+    </net>
+    <net code="150" name="Net-(Q7-Pad3)">
+      <node ref="R32" pin="2"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="151" name="/SUPER_UART_front_UART234/CTS_A_VDD2">
+      <node ref="R32" pin="1"/>
+      <node ref="Q13" pin="3"/>
+      <node ref="CON7" pin="5"/>
+      <node ref="R33" pin="2"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="152" name="Net-(R33-Pad1)">
+      <node ref="U14" pin="4"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="153" name="/SUPER_UART_front_UART234/RXD_C_VDD2">
+      <node ref="R30" pin="2"/>
+      <node ref="CON8" pin="2"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="154" name="Net-(R39-Pad1)">
+      <node ref="U15" pin="4"/>
+      <node ref="R39" pin="1"/>
+    </net>
+    <net code="155" name="Net-(U11-Pad9)">
+      <node ref="U11" pin="9"/>
+    </net>
+    <net code="156" name="Net-(U16-Pad6)">
+      <node ref="U16" pin="6"/>
+    </net>
+    <net code="157" name="Net-(U16-Pad2)">
+      <node ref="U16" pin="2"/>
+    </net>
+    <net code="158" name="Net-(TP38-Pad1)">
+      <node ref="U1" pin="50"/>
+      <node ref="TP38" pin="1"/>
+    </net>
+    <net code="159" name="Net-(TP39-Pad1)">
+      <node ref="U1" pin="54"/>
+      <node ref="TP39" pin="1"/>
+    </net>
+    <net code="160" name="Net-(U1-Pad35)">
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="161" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="162" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="163" name="Net-(TP37-Pad1)">
+      <node ref="U1" pin="51"/>
+      <node ref="TP37" pin="1"/>
+    </net>
+    <net code="164" name="Net-(TP36-Pad1)">
+      <node ref="U1" pin="52"/>
+      <node ref="TP36" pin="1"/>
+    </net>
+    <net code="165" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="166" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="167" name="/SUPER_UART_front_uC/LED5">
+      <node ref="R1" pin="2"/>
+      <node ref="LED20" pin="2"/>
+      <node ref="LED17" pin="2"/>
+      <node ref="LED18" pin="2"/>
+      <node ref="TP17" pin="1"/>
+      <node ref="LED19" pin="2"/>
+    </net>
+    <net code="168" name="Net-(U1-Pad62)">
+      <node ref="U1" pin="62"/>
+    </net>
+    <net code="169" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="170" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="171" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="172" name="/SUPER_UART_front_uC/LED4uC">
+      <node ref="RN1" pin="5"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="173" name="/SUPER_UART_front_uC/LED3uC">
+      <node ref="U1" pin="26"/>
+      <node ref="RN1" pin="6"/>
+    </net>
+    <net code="174" name="/SUPER_UART_front_uC/LED2uC">
+      <node ref="RN1" pin="7"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="175" name="/SUPER_UART_front_uC/LED1uC">
+      <node ref="RN1" pin="8"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="176" name="/SUPER_UART_front_uC/COL4">
+      <node ref="TP25" pin="1"/>
+      <node ref="LED20" pin="1"/>
+      <node ref="LED13" pin="1"/>
+      <node ref="LED14" pin="1"/>
+      <node ref="LED12" pin="1"/>
+      <node ref="LED10" pin="1"/>
+      <node ref="SW14" pin="2"/>
+      <node ref="SW10" pin="2"/>
+      <node ref="SW12" pin="2"/>
+      <node ref="U1" pin="39"/>
+      <node ref="SW13" pin="2"/>
+    </net>
+    <net code="177" name="/SUPER_UART_front_uC/LED5uC">
+      <node ref="U1" pin="41"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="178" name="/SUPER_UART_front_uC/SW3">
+      <node ref="RN2" pin="3"/>
+      <node ref="U1" pin="15"/>
+      <node ref="SW11" pin="1"/>
+      <node ref="TP20" pin="1"/>
+      <node ref="SW15" pin="1"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="SW12" pin="1"/>
+    </net>
+    <net code="179" name="/SUPER_UART_front_uC/SW2">
+      <node ref="SW14" pin="1"/>
+      <node ref="RN2" pin="2"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="TP19" pin="1"/>
+    </net>
+    <net code="180" name="/SUPER_UART_front_uC/COL1">
+      <node ref="SW5" pin="2"/>
+      <node ref="U1" pin="61"/>
+      <node ref="LED17" pin="1"/>
+      <node ref="SW16" pin="2"/>
+      <node ref="TP22" pin="1"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="LED15" pin="1"/>
+      <node ref="LED6" pin="1"/>
+      <node ref="SW15" pin="2"/>
+      <node ref="LED16" pin="1"/>
+      <node ref="LED5" pin="1"/>
+    </net>
+    <net code="181" name="/SUPER_UART_front_uC/SWDIO">
+      <node ref="U1" pin="46"/>
+      <node ref="CON2" pin="2"/>
+    </net>
+    <net code="182" name="/SUPER_UART_front_uC/RST">
+      <node ref="U1" pin="7"/>
+      <node ref="CON2" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="183" name="/SUPER_UART_front_uC/SWDCLK">
+      <node ref="U1" pin="49"/>
+      <node ref="CON2" pin="4"/>
+    </net>
+    <net code="184" name="Net-(CON2-Pad6)">
+      <node ref="CON2" pin="6"/>
+    </net>
+    <net code="185" name="/SUPER_UART_front_uC/COL3">
+      <node ref="U1" pin="38"/>
+      <node ref="LED9" pin="1"/>
+      <node ref="LED19" pin="1"/>
+      <node ref="SW3" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW11" pin="2"/>
+      <node ref="SW9" pin="2"/>
+      <node ref="LED3" pin="1"/>
+      <node ref="LED1" pin="1"/>
+      <node ref="LED11" pin="1"/>
+      <node ref="TP24" pin="1"/>
+    </net>
+    <net code="186" name="/SUPER_UART_front_uC/BOOT0">
+      <node ref="Q1" pin="3"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U1" pin="60"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="187" name="Net-(D1-Pad3)">
+      <node ref="Q1" pin="1"/>
+      <node ref="SW17" pin="1"/>
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="188" name="/SUPER_UART_front_uC/LED2">
+      <node ref="LED2" pin="2"/>
+      <node ref="LED5" pin="2"/>
+      <node ref="TP14" pin="1"/>
+      <node ref="LED14" pin="2"/>
+      <node ref="LED1" pin="2"/>
+      <node ref="RN1" pin="2"/>
+    </net>
+    <net code="189" name="/SUPER_UART_front_uC/LED1">
+      <node ref="LED6" pin="2"/>
+      <node ref="TP13" pin="1"/>
+      <node ref="LED13" pin="2"/>
+      <node ref="RN1" pin="1"/>
+      <node ref="LED3" pin="2"/>
+      <node ref="LED4" pin="2"/>
+    </net>
+    <net code="190" name="/SUPER_UART_front_uC/COL2">
+      <node ref="SW4" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="LED4" pin="1"/>
+      <node ref="TP23" pin="1"/>
+      <node ref="LED18" pin="1"/>
+      <node ref="SW7" pin="2"/>
+      <node ref="LED7" pin="1"/>
+      <node ref="SW8" pin="2"/>
+      <node ref="LED8" pin="1"/>
+    </net>
+    <net code="191" name="/SUPER_UART_front_uC/SW1">
+      <node ref="TP18" pin="1"/>
+      <node ref="U1" pin="24"/>
+      <node ref="SW13" pin="1"/>
+      <node ref="SW6" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="RN2" pin="1"/>
+      <node ref="SW4" pin="1"/>
+    </net>
+    <net code="192" name="/SUPER_UART_front_uC/LED4">
+      <node ref="LED16" pin="2"/>
+      <node ref="LED10" pin="2"/>
+      <node ref="LED7" pin="2"/>
+      <node ref="RN1" pin="4"/>
+      <node ref="LED9" pin="2"/>
+      <node ref="TP16" pin="1"/>
+    </net>
+    <net code="193" name="/SUPER_UART_front_uC/LED3">
+      <node ref="LED15" pin="2"/>
+      <node ref="TP15" pin="1"/>
+      <node ref="LED8" pin="2"/>
+      <node ref="RN1" pin="3"/>
+      <node ref="LED11" pin="2"/>
+      <node ref="LED12" pin="2"/>
+    </net>
+    <net code="194" name="/SUPER_UART_front_uC/SW4">
+      <node ref="SW7" pin="1"/>
+      <node ref="SW16" pin="1"/>
+      <node ref="U1" pin="45"/>
+      <node ref="SW10" pin="1"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="TP21" pin="1"/>
+      <node ref="RN2" pin="4"/>
+    </net>
+    <net code="195" name="/SUPER_UART_front_RS232/RI_D2">
+      <node ref="U5" pin="15"/>
+      <node ref="U6" pin="13"/>
+    </net>
+    <net code="196" name="/SUPER_UART_front_RS232/CTS_D2">
+      <node ref="U5" pin="16"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="197" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+      <node ref="U6" pin="6"/>
+    </net>
+    <net code="198" name="/SUPER_UART_front_RS232/DCD_D2">
+      <node ref="U5" pin="18"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="199" name="/SUPER_UART_front_RS232/DSR_D2">
+      <node ref="U5" pin="19"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="200" name="Net-(C16-Pad1)">
+      <node ref="U5" pin="27"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="201" name="Net-(LED25-Pad1)">
+      <node ref="RN3" pin="3"/>
+      <node ref="LED25" pin="1"/>
+    </net>
+    <net code="202" name="Net-(LED26-Pad1)">
+      <node ref="RN3" pin="4"/>
+      <node ref="LED26" pin="1"/>
+    </net>
+    <net code="203" name="Net-(Q12-Pad3)">
+      <node ref="U5" pin="22"/>
+      <node ref="R48" pin="2"/>
+      <node ref="Q12" pin="3"/>
+    </net>
+    <net code="204" name="Net-(C14-Pad2)">
+      <node ref="U5" pin="2"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="205" name="Net-(LED24-Pad1)">
+      <node ref="RN3" pin="2"/>
+      <node ref="LED24" pin="1"/>
+    </net>
+    <net code="206" name="/SUPER_UART_front_RS232/DTR_FORCE">
+      <node ref="R4" pin="1"/>
+      <node ref="LED21" pin="1"/>
+      <node ref="SW18" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="207" name="Net-(LED23-Pad1)">
+      <node ref="RN3" pin="1"/>
+      <node ref="LED23" pin="1"/>
+    </net>
+    <net code="208" name="/SUPER_UART_front_RS232/RTS_232">
+      <node ref="CON3" pin="7"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="209" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="210" name="/SUPER_UART_front_RS232/DTR_232">
+      <node ref="U5" pin="11"/>
+      <node ref="CON3" pin="4"/>
+    </net>
+    <net code="211" name="Net-(C12-Pad2)">
+      <node ref="C12" pin="2"/>
+      <node ref="U5" pin="24"/>
+    </net>
+    <net code="212" name="Net-(U5-Pad21)">
+      <node ref="U5" pin="21"/>
+    </net>
+    <net code="213" name="/SUPER_UART_front_RS232/TXD_232">
+      <node ref="U5" pin="10"/>
+      <node ref="CON3" pin="3"/>
+    </net>
+    <net code="214" name="/SUPER_UART_front_RS232/RI_232">
+      <node ref="U5" pin="8"/>
+      <node ref="CON3" pin="9"/>
+    </net>
+    <net code="215" name="/SUPER_UART_front_RS232/CTS_232">
+      <node ref="CON3" pin="8"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="216" name="/SUPER_UART_front_RS232/RXD_232">
+      <node ref="U5" pin="6"/>
+      <node ref="CON3" pin="2"/>
+    </net>
+    <net code="217" name="/SUPER_UART_front_RS232/DCD_232">
+      <node ref="U5" pin="5"/>
+      <node ref="CON3" pin="1"/>
+    </net>
+    <net code="218" name="/SUPER_UART_front_RS232/DSR_232">
+      <node ref="CON3" pin="6"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="219" name="Net-(C14-Pad1)">
+      <node ref="U5" pin="1"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="220" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="U5" pin="28"/>
+    </net>
+    <net code="221" name="/SUPER_UART_front_RS232/RXD_D2">
+      <node ref="U6" pin="4"/>
+      <node ref="U5" pin="17"/>
+    </net>
+    <net code="222" name="Net-(LED21-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="LED21" pin="2"/>
+    </net>
+    <net code="223" name="Net-(LED22-Pad2)">
+      <node ref="R5" pin="1"/>
+      <node ref="LED22" pin="2"/>
+    </net>
+    <net code="224" name="/SUPER_UART_front_RS232/RTS_FORCE">
+      <node ref="U4" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="SW19" pin="1"/>
+      <node ref="LED22" pin="1"/>
+    </net>
+  </nets>
+</export>

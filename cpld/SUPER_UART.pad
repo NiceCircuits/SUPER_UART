@@ -1,0 +1,93 @@
+Release 8.1i - Fit P.20131013
+Copyright(c) 1995-2003 Xilinx Inc. All rights reserved
+
+11- 6-2017  8:06AM
+
+NOTE: This file is designed to be imported into a spreadsheet program
+such as Microsoft Excel for viewing, printing and sorting. The pipe '|'
+character is used as the data field separator.
+This file is also designed to support parsing.
+
+Input file:  SUPER_UART.ngd
+output file: SUPER_UART.pad
+Part type:   xc9536xl
+Speed grade: -10
+Package:     vq64
+
+Pinout by Pin Number:
+
+-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+Pin Number|Signal Name|Pin Usage|Pin Name|Direction|IO Standard|IO Bank Number|{blank}|Slew Rate|Termination|{blank}|Voltage|Constraint|
+P1|TIE||.||||||||||
+P2|FTDI_RXD_C|O|I/O/GTS2|OUTPUT|||||||||
+P3|VCC||VCCINT||||||||||
+P4|TIE||.||||||||||
+P5|FTDI_DTR_B|I|I/O/GTS1|INPUT|||||||||
+P6|FTDI_CTS_B|I/O|I/O|BIDIR|||||||||
+P7|FTDI_RTS_B|O|I/O|OUTPUT|||||||||
+P8|FTDI_RXD_B|I/O|I/O|BIDIR|||||||||
+P9|FTDI_TXD_B|I|I/O|INPUT|||||||||
+P10|FTDI_DTR_A|I|I/O|INPUT|||||||||
+P11|FTDI_CTS_A|I/O|I/O|BIDIR|||||||||
+P12|TIE||.||||||||||
+P13|TIE||.||||||||||
+P14|TIE||.||||||||||
+P15|FTDI_RTS_A|O|I/O/GCK1|OUTPUT|||||||||
+P16|FTDI_RXD_A|I/O|I/O/GCK2|BIDIR|||||||||
+P17|FTDI_TXD_A|I|I/O/GCK3|INPUT|||||||||
+P18|TIE||.||||||||||
+P19|BUZZER|O|I/O|OUTPUT|||||||||
+P20|OPTO_EN|O|I/O|OUTPUT|||||||||
+P21|GND||GND||||||||||
+P22|FTDI_TXD_D_INT|I|I/O|INPUT|||||||||
+P23|TIE||.||||||||||
+P24|CTS_A|I/O|I/O|BIDIR|||||||||
+P25|RXD_A|I|I/O|INPUT|||||||||
+P26|TIE||.||||||||||
+P27|CTS_A_OC|O|I/O|OUTPUT|||||||||
+P28|TDI||TDI||||||||||
+P29|TMS||TMS||||||||||
+P30|TCK||TCK||||||||||
+P31|TIE||.||||||||||
+P32|TIE||.||||||||||
+P33|TXD_C|I|I/O|INPUT|||||||||
+P34|TIE||.||||||||||
+P35|TXD_A|O|I/O|OUTPUT|||||||||
+P36|RXD_A_OC|O|I/O|OUTPUT|||||||||
+P37|VCC||VCCINT||||||||||
+P38|SR_CLK|I|I/O|INPUT|||||||||
+P39|SR_LOAD|I|I/O|INPUT|||||||||
+P40|TIE||.||||||||||
+P41|GND||GND||||||||||
+P42|DTR_B|O|I/O|OUTPUT|||||||||
+P43|CPLD_OE|I|I/O|INPUT|||||||||
+P44|RXD_C|I|I/O|INPUT|||||||||
+P45|DTR_A|O|I/O|OUTPUT|||||||||
+P46|TIE||.||||||||||
+P47|TIE||.||||||||||
+P48|RXD_B|I|I/O|INPUT|||||||||
+P49|RXD_B_OC|O|I/O|OUTPUT|||||||||
+P50|SR_DATA|I|I/O|INPUT|||||||||
+P51|TIE||.||||||||||
+P52|TIE||.||||||||||
+P53|TDO||TDO||||||||||
+P54|GND||GND||||||||||
+P55|VCC||VCCIO||||||||||
+P56|TXD_B|O|I/O|OUTPUT|||||||||
+P57|CTS_B_OC|O|I/O|OUTPUT|||||||||
+P58|TIE||.||||||||||
+P59|TIE||.||||||||||
+P60|CTS_B|I/O|I/O|BIDIR|||||||||
+P61|RXD_D|I|I/O|INPUT|||||||||
+P62|TXD_D|O|I/O|OUTPUT|||||||||
+P63|FTDI_RXD_D|O|I/O|OUTPUT|||||||||
+P64|FTDI_TXD_D|I|I/O/GSR|INPUT|||||||||
+
+To preserve the pinout above for future design iterations in
+Project Navigator simply execute the (Lock Pins) process
+located under the (Implement Design) process in a toolbox named
+(Optional Implementation Tools) or invoke PIN2UCF from the
+command line. The location constraints will be written into your
+specified UCF file
+
+

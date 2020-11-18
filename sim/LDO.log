@@ -1,0 +1,31 @@
+Circuit: * D:\OneDrive\super_UART\sim\LDO.asc
+
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u1:shutdown)
+Ignoring empty pin current: Ix(u1:feedback)
+Ignoring empty pin current: Ix(u1:shutdown)
+Ignoring empty pin current: Ix(u1:feedback)
+
+duty50: v(vin)/3.3=0.0397698 at 0.0397698
+duty33: v(vin)/3.3=0.553121 at 0.553121
+duty25: v(vin)/3.3=0.794806 at 0.794806
+duty18: v(vin)/3.3=1 at 1.00875
+
+
+Date: Tue Oct 31 22:32:22 2017
+Total elapsed time: 0.064 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2105
+traniter = 2098
+tranpoints = 1049
+accept = 1049
+rejected = 0
+matrix size = 38
+fillins = 12
+solver = Normal
+Matrix Compiler1: 1.63 KB object code size  0.8/0.3/[0.2]
+Matrix Compiler2: off  [0.2]/0.4/0.3
+

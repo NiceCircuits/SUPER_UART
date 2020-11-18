@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=D:\OneDrive\super_UART\cpld\impact.xsl
+OUTFILE=D:\OneDrive\super_UART\cpld\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=D:\OneDrive\super_UART\cpld
+LICENSE=iMPACT
+USER_INFO=iMPACT

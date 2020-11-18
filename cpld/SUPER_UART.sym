@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="SUPER_UART">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-5-27T20:54:31</timestamp>
+    <pin polarity="Input" x="0" y="-1056" name="FTDI_DTR_A" />
+    <pin polarity="Input" x="0" y="-976" name="FTDI_TXD_B" />
+    <pin polarity="Input" x="0" y="-896" name="FTDI_TXD_C" />
+    <pin polarity="Input" x="0" y="-816" name="RXD_D" />
+    <pin polarity="Input" x="0" y="-736" name="SR_DIN" />
+    <pin polarity="Input" x="0" y="-656" name="SR_LOAD" />
+    <pin polarity="Input" x="0" y="-576" name="SR_CLK" />
+    <pin polarity="Input" x="0" y="-496" name="RXD_A" />
+    <pin polarity="Input" x="0" y="-416" name="FTDI_TXD_A" />
+    <pin polarity="Input" x="0" y="-336" name="FTDI_DTR_B" />
+    <pin polarity="Input" x="0" y="-256" name="RXD_B" />
+    <pin polarity="Input" x="0" y="-176" name="RXD_C" />
+    <pin polarity="Input" x="0" y="-96" name="FTDI_TXD_D" />
+    <pin polarity="Output" x="432" y="-1056" name="RXD_OC_A" />
+    <pin polarity="Output" x="432" y="-992" name="TXD_OC_A" />
+    <pin polarity="Output" x="432" y="-928" name="DTR_A" />
+    <pin polarity="Output" x="432" y="-864" name="RXD_OC_B" />
+    <pin polarity="Output" x="432" y="-800" name="TXD_OC_B" />
+    <pin polarity="Output" x="432" y="-736" name="DTR_B" />
+    <pin polarity="Output" x="432" y="-672" name="FTDI_RXD_C" />
+    <pin polarity="Output" x="432" y="-608" name="FTDI_RXD_D" />
+    <pin polarity="Output" x="432" y="-544" name="TXD_D" />
+    <pin polarity="BiDirectional" x="432" y="-480" name="FTDI_RTS_A" />
+    <pin polarity="BiDirectional" x="432" y="-416" name="FTDI_CTS_A" />
+    <pin polarity="BiDirectional" x="432" y="-352" name="FTDI_RXD_A" />
+    <pin polarity="BiDirectional" x="432" y="-288" name="CTS_A" />
+    <pin polarity="BiDirectional" x="432" y="-224" name="FTDI_CTS_B" />
+    <pin polarity="BiDirectional" x="432" y="-160" name="FTDI_RXD_B" />
+    <pin polarity="BiDirectional" x="432" y="-96" name="CTS_B" />
+    <pin polarity="BiDirectional" x="432" y="-32" name="FTDI_RTS_B" />
+    <graph>
+        <rect width="304" x="64" y="-1088" height="1088" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="216" y="-1096" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1056" type="pin FTDI_DTR_A" />
+        <line x2="0" y1="-1056" y2="-1056" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-976" type="pin FTDI_TXD_B" />
+        <line x2="0" y1="-976" y2="-976" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-896" type="pin FTDI_TXD_C" />
+        <line x2="0" y1="-896" y2="-896" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-816" type="pin RXD_D" />
+        <line x2="0" y1="-816" y2="-816" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-736" type="pin SR_DIN" />
+        <line x2="0" y1="-736" y2="-736" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-656" type="pin SR_LOAD" />
+        <line x2="0" y1="-656" y2="-656" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-576" type="pin SR_CLK" />
+        <line x2="0" y1="-576" y2="-576" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-496" type="pin RXD_A" />
+        <line x2="0" y1="-496" y2="-496" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin FTDI_TXD_A" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-336" type="pin FTDI_DTR_B" />
+        <line x2="0" y1="-336" y2="-336" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-256" type="pin RXD_B" />
+        <line x2="0" y1="-256" y2="-256" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-176" type="pin RXD_C" />
+        <line x2="0" y1="-176" y2="-176" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin FTDI_TXD_D" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-1056" type="pin RXD_OC_A" />
+        <line x2="432" y1="-1056" y2="-1056" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-992" type="pin TXD_OC_A" />
+        <line x2="432" y1="-992" y2="-992" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-928" type="pin DTR_A" />
+        <line x2="432" y1="-928" y2="-928" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-864" type="pin RXD_OC_B" />
+        <line x2="432" y1="-864" y2="-864" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-800" type="pin TXD_OC_B" />
+        <line x2="432" y1="-800" y2="-800" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-736" type="pin DTR_B" />
+        <line x2="432" y1="-736" y2="-736" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-672" type="pin FTDI_RXD_C" />
+        <line x2="432" y1="-672" y2="-672" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-608" type="pin FTDI_RXD_D" />
+        <line x2="432" y1="-608" y2="-608" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-544" type="pin TXD_D" />
+        <line x2="432" y1="-544" y2="-544" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-480" type="pin FTDI_RTS_A" />
+        <line x2="432" y1="-480" y2="-480" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-416" type="pin FTDI_CTS_A" />
+        <line x2="432" y1="-416" y2="-416" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-352" type="pin FTDI_RXD_A" />
+        <line x2="432" y1="-352" y2="-352" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-288" type="pin CTS_A" />
+        <line x2="432" y1="-288" y2="-288" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-224" type="pin FTDI_CTS_B" />
+        <line x2="432" y1="-224" y2="-224" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-160" type="pin FTDI_RXD_B" />
+        <line x2="432" y1="-160" y2="-160" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-96" type="pin CTS_B" />
+        <line x2="432" y1="-96" y2="-96" x1="368" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="360" y="-32" type="pin FTDI_RTS_B" />
+        <line x2="432" y1="-32" y2="-32" x1="368" />
+    </graph>
+</symbol>

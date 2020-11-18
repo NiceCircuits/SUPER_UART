@@ -51,8 +51,8 @@
 #define N_PWREN_GPIO_Port GPIOC
 #define COL2_Pin GPIO_PIN_15
 #define COL2_GPIO_Port GPIOC
-#define I2C_PU_EN_B_Pin GPIO_PIN_0
-#define I2C_PU_EN_B_GPIO_Port GPIOF
+#define N_I2C_PU_EN_B_Pin GPIO_PIN_0
+#define N_I2C_PU_EN_B_GPIO_Port GPIOF
 #define N_VDD1_ERR_Pin GPIO_PIN_1
 #define N_VDD1_ERR_GPIO_Port GPIOF
 #define SW2_Pin GPIO_PIN_0
@@ -91,8 +91,8 @@
 #define COL3_GPIO_Port GPIOC
 #define COL4_Pin GPIO_PIN_8
 #define COL4_GPIO_Port GPIOC
-#define I2C_PU_EN_A_Pin GPIO_PIN_9
-#define I2C_PU_EN_A_GPIO_Port GPIOC
+#define N_I2C_PU_EN_A_Pin GPIO_PIN_9
+#define N_I2C_PU_EN_A_GPIO_Port GPIOC
 #define LED5_Pin GPIO_PIN_8
 #define LED5_GPIO_Port GPIOA
 #define TXD_Pin GPIO_PIN_9

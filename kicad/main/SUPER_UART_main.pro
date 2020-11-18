@@ -1,4 +1,4 @@
-update=2017-06-10 19:17:28
+update=2017-08-02 19:09:16
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=D:/test/kicadLib
@@ -76,3 +66,15 @@ LibName34=C:/Program Files/KiCad/share/kicad/library/74xgxx
 LibName35=C:/Program Files/KiCad/share/kicad/library/74xx
 LibName36=C:/Program Files/KiCad/share/kicad/library/cmos4000
 LibName37=niceCpld
+LibName38=C:/Program Files/KiCad/share/kicad/library/conn
+LibName39=niceIsolators
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=56

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/OneDrive/super_UART/cpld/SUPER_UART_SUPER_UART_sch_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="super_uart_super_uart_sch_tb" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vital_timing" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/super_uart_super_uart_sch_tb/sr_data" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sr_data</obj_property>
+      <obj_property name="ObjectShortName">sr_data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/super_uart_super_uart_sch_tb/cpld_oe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cpld_oe</obj_property>
+      <obj_property name="ObjectShortName">cpld_oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/super_uart_super_uart_sch_tb/sr_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sr_clk</obj_property>
+      <obj_property name="ObjectShortName">sr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/super_uart_super_uart_sch_tb/ftdi_txd_d" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ftdi_txd_d</obj_property>
+      <obj_property name="ObjectShortName">ftdi_txd_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/super_uart_super_uart_sch_tb/ftdi_rxd_d" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ftdi_rxd_d</obj_property>
+      <obj_property name="ObjectShortName">ftdi_rxd_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/super_uart_super_uart_sch_tb/txd_d" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txd_d</obj_property>
+      <obj_property name="ObjectShortName">txd_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/super_uart_super_uart_sch_tb/sr_load" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sr_load</obj_property>
+      <obj_property name="ObjectShortName">sr_load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/super_uart_super_uart_sch_tb/rxd_d1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxd_d1</obj_property>
+      <obj_property name="ObjectShortName">rxd_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/super_uart_super_uart_sch_tb/opto_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">opto_en</obj_property>
+      <obj_property name="ObjectShortName">opto_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/super_uart_super_uart_sch_tb/buzzer" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">buzzer</obj_property>
+      <obj_property name="ObjectShortName">buzzer</obj_property>
+   </wvobject>
+</wave_config>

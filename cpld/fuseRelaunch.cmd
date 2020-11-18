@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/OneDrive/super_UART/cpld/SUPER_UART_SUPER_UART_sch_tb_isim_beh.exe" -prj "D:/OneDrive/super_UART/cpld/SUPER_UART_SUPER_UART_sch_tb_beh.prj" "work.SUPER_UART_SUPER_UART_sch_tb" 

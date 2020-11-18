@@ -1,6 +1,8 @@
 /datasheet
-/fpga
 /kicad/*/*.net
 /~$*.xls*
 *.bak
 /kicad/front/pcb_history
+/kicad/main/pcb_history
+/cpld/*/*
+/cpld_passthrought
